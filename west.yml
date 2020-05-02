@@ -1,0 +1,58 @@
+# The west manifest file for nRF52840-M2 DevKit.
+#
+# The per-installation west configuration file specifies the location of this
+# manifest file. The "path" option in the [manifest] section of .west/config
+# defines the folder that contains west.yml. The path is relative to the folder
+# that contains .west.
+#
+# You can create your own manifest files and put them in any
+# repository you want, to create your own custom installation.
+# For example, you could create a manifest file in your own
+# out-of-tree application directory, which would pull the nRF52840-M2 DevKit repository
+# in as an ordinary project.
+#
+# You can pass your manifest repositories to west init when creating a
+# new installation. See the west documentation for more
+# information.
+
+manifest:
+  defaults:
+    remote: makerdiary
+
+  remotes:
+    - name: makerdiary
+      url-base: https://github.com/makerdiary
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+
+  # The list of external projects.
+  #
+  projects:
+    - name: zephyr
+      repo-path: zephyr
+      west-commands: scripts/west-commands.yml
+      remote: zephyrproject
+      revision: fc407574412a6c5aaf5161360a05e11d8a964f00
+    - name: cmsis
+      revision: a2b82e79bd8ac156fb283d5f52fa0a2373962cf9
+      path: modules/hal/cmsis
+      remote: zephyrproject
+    - name: hal_nordic
+      revision: f6d5eca68e07551d6a36359b67600f9e98736839
+      path: modules/hal/nordic
+      remote: zephyrproject   
+    - name: lvgl
+      revision: 74fc2e753a997bd71cefa34dd9c56dcb954b42e2
+      path: modules/lib/gui/lvgl
+      remote: zephyrproject
+    - name: fatfs
+      revision: 9ee6b9b9511151d0d64a74d532d39c6f2bbd4f16
+      path: modules/fs/fatfs
+      remote: zephyrproject
+    - name: tinycrypt
+      path: modules/crypto/tinycrypt
+      revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+      remote: zephyrproject
+
+  self:
+    path: nrf52840-m2-devkit
