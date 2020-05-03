@@ -49,6 +49,10 @@ manifest:
       revision: 9ee6b9b9511151d0d64a74d532d39c6f2bbd4f16
       path: modules/fs/fatfs
       remote: zephyrproject
+    - name: littlefs
+      path: modules/fs/littlefs
+      revision: fe9572dd5a9fcf93a249daa4233012692bd2881d
+      remote: zephyrproject
     - name: tinycrypt
       path: modules/crypto/tinycrypt
       revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
