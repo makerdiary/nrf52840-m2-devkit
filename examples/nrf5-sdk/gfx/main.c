@@ -42,7 +42,7 @@
  * @brief TFT Example Application main file.
  *
  * This file contains the source code for a sample application using the
- * GFX library based on the ILI9341 controller.
+ * GFX library based on the ST7789 controller.
  *
  */
 

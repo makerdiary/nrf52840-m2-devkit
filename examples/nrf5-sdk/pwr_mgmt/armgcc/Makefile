@@ -174,26 +174,37 @@ include $(TEMPLATE_PATH)/Makefile.common
 
 $(foreach target, $(TARGETS), $(call define_target, $(target)))
 
-.PHONY: flash erase
+.PHONY: flash merge flash_mbr flash_all erase release
 
 # Flash the program
 flash: default
 	@echo Flashing: $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex
 	pyocd flash -t nrf52840 $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex
 
-# Flash softdevice
+# Flash MBR
 flash_mbr:
 	@echo Flashing: mbr_nrf52_2.4.1_mbr.hex
 	pyocd flash -t nrf52840 $(SDK_ROOT)/components/softdevice/mbr/hex/mbr_nrf52_2.4.1_mbr.hex
 
-# Flash softdevice and application
-flash_all: default
+# Merge the MBR and application
+merge: default
 	@echo Merging: $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
 	mergehex -m $(SDK_ROOT)/components/softdevice/mbr/hex/mbr_nrf52_2.4.1_mbr.hex $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex -o $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
+
+# Flash MBR and application
+flash_all: merge
+	@echo Flashing: $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
 	pyocd flash -t nrf52840 $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
 
+# Erase the chip
 erase:
 	pyocd erase -t nrf52840 --chip
+
+# Release the prebuilt firmware
+release: merge
+	@echo Copying: $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex and $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
+	cp $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex $(PROJ_DIR)/hex/$(PROJECT_NAME).hex
+	cp $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex $(PROJ_DIR)/hex/$(PROJECT_NAME)_mbr.hex
 
 SDK_CONFIG_FILE := ../config/sdk_config.h
 CMSIS_CONFIG_TOOL := $(SDK_ROOT)/external_tools/cmsisconfig/CMSIS_Configuration_Wizard.jar

@@ -258,7 +258,7 @@ static void cmd_gpio_set(nrf_cli_t const * p_cli, size_t argc, char **argv)
 
     uint32_t pin_no = atoi(argv[1]);
 
-    if (pin_no > 0 && pin_no <= GPIOS_NUMBER)
+    if (pin_no >= 0 && pin_no < GPIOS_NUMBER)
     {
         nrf_gpio_cfg_output(m_board_gpio_list[pin_no]);
         nrf_gpio_pin_set(m_board_gpio_list[pin_no]);
@@ -293,7 +293,7 @@ static void cmd_gpio_clear(nrf_cli_t const * p_cli, size_t argc, char **argv)
 
     uint32_t pin_no = atoi(argv[1]);
 
-    if (pin_no > 0 && pin_no <= GPIOS_NUMBER)
+    if (pin_no >= 0 && pin_no < GPIOS_NUMBER)
     {
         nrf_gpio_cfg_output(m_board_gpio_list[pin_no]);
         nrf_gpio_pin_clear(m_board_gpio_list[pin_no]);
@@ -328,7 +328,7 @@ static void cmd_gpio_read(nrf_cli_t const * p_cli, size_t argc, char **argv)
 
     uint32_t pin_no = atoi(argv[1]);
 
-    if (pin_no > 0 && pin_no <= GPIOS_NUMBER)
+    if (pin_no >= 0 && pin_no < GPIOS_NUMBER)
     {
         nrf_gpio_cfg_input(m_board_gpio_list[pin_no], NRF_GPIO_PIN_PULLUP);
         uint32_t val = nrf_gpio_pin_read(m_board_gpio_list[pin_no]);

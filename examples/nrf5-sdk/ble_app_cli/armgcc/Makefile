@@ -1,4 +1,4 @@
-PROJECT_NAME     := ble_app_cli_nrf52840_m2_s140
+PROJECT_NAME     := ble_app_cli_nrf52840_m2
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := _build
 
@@ -352,7 +352,7 @@ include $(TEMPLATE_PATH)/Makefile.common
 
 $(foreach target, $(TARGETS), $(call define_target, $(target)))
 
-.PHONY: flash flash_softdevice erase
+.PHONY: flash flash_softdevice merge flash_all erase release
 
 # Flash the program
 flash: default
@@ -364,8 +364,25 @@ flash_softdevice:
 	@echo Flashing: s140_nrf52_7.0.1_softdevice.hex
 	pyocd flash -t nrf52840 $(SDK_ROOT)/components/softdevice/s140/hex/s140_nrf52_7.0.1_softdevice.hex
 
+# Merge softdevice and application
+merge: default
+	@echo Merging: $(OUTPUT_DIRECTORY)/nrf52840_xxaa_s140.hex
+	mergehex -m $(SDK_ROOT)/components/softdevice/s140/hex/s140_nrf52_7.0.1_softdevice.hex $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex -o $(OUTPUT_DIRECTORY)/nrf52840_xxaa_s140.hex
+
+# Flash softdevice and application
+flash_all: merge
+	@echo Flashing: $(OUTPUT_DIRECTORY)/nrf52840_xxaa_s140.hex
+	pyocd flash -t nrf52840 $(OUTPUT_DIRECTORY)/nrf52840_xxaa_s140.hex
+
+# Erase the chip
 erase:
 	pyocd erase -t nrf52840 --chip
+
+# Release the prebuilt firmware
+release: merge
+	@echo Copying: $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex and $(OUTPUT_DIRECTORY)/nrf52840_xxaa_s140.hex
+	cp $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex $(PROJ_DIR)/hex/$(PROJECT_NAME).hex
+	cp $(OUTPUT_DIRECTORY)/nrf52840_xxaa_s140.hex $(PROJ_DIR)/hex/$(PROJECT_NAME)_s140.hex
 
 SDK_CONFIG_FILE := $(PROJ_DIR)/config/sdk_config.h
 CMSIS_CONFIG_TOOL := $(SDK_ROOT)/external_tools/cmsisconfig/CMSIS_Configuration_Wizard.jar
