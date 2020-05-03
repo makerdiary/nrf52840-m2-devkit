@@ -1,4 +1,4 @@
-# nRF52840 M.2 Developer Kit<br/><small>An open-source Developer Kit based on nRF52840 M.2 Module</small>
+# nRF5 SDK<br><small>Essential Software Development Kit for the nRF5x Series SoC</small>
 
 
 ## Create an Issue

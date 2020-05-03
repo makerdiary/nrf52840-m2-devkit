@@ -1,4 +1,4 @@
-# nRF52840 M.2 Developer Kit<br/><small>An open-source Developer Kit based on nRF52840 M.2 Module</small>
+# Zephyr RTOS<br/><small>The best-in-class RTOS for connected resource-constrained devices, built be secure and safe</small>
 
 
 ## Create an Issue

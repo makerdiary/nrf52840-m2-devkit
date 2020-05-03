@@ -114,10 +114,14 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - Getting Started: getting-started.md
+  - nRF5 SDK Tutorials:
+    - Overview: nrf5-sdk/index.md
+  - Zephyr RTOS Tutorials:
+    - Overview: zephyr/index.md
   - Where to Buy: where-to-buy.md
   - Contributing: CONTRIBUTING.md
   - License: LICENSE.md
-
+  
 # Google Analytics
 google_analytics:
   - 'UA-54344624-2'
