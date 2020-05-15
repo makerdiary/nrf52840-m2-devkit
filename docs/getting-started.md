@@ -1,4 +1,31 @@
-# Getting Started Out of the Box
+# Getting Started with nRF52840 M.2 Developer Kit
+
+## Introduction
+This guide describes how to run the Out of Box Demo without going through the complete toolchain installation. After following along with this section, you’ll be ready to start building your IoT projects.
+
+## Included in the Box
+
+Your nRF52840 M.2 Developer Kit box includes:
+
+|    **Part**                | **Qty** |
+| -------------------------- | ------- |
+| nRF52840 M.2 Module        | 1       |
+| M.2 Dock                   | 1       |
+| 2.4 GHz Cabled PCB Antenna | 1       |
+| NFC Cabled PCB Antenna     | 1       |
+| USB-C Cable                | 1       |
+
+![Parts in the Kit]()
+
+## Assemble the Hardware
+
+## Set Up with Terminal
+
+## Set Up with Web Device CLI
+
+## Set the LED Color
+
+## TFT LCD Display Demo
 
 
 
