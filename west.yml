@@ -1,4 +1,4 @@
-# The west manifest file for nRF52840-M2 DevKit.
+# The west manifest file for nRF52840 M.2 DevKit.
 #
 # The per-installation west configuration file specifies the location of this
 # manifest file. The "path" option in the [manifest] section of .west/config
@@ -8,7 +8,7 @@
 # You can create your own manifest files and put them in any
 # repository you want, to create your own custom installation.
 # For example, you could create a manifest file in your own
-# out-of-tree application directory, which would pull the nRF52840-M2 DevKit repository
+# out-of-tree application directory, which would pull the nRF52840 M.2 DevKit repository
 # in as an ordinary project.
 #
 # You can pass your manifest repositories to west init when creating a
