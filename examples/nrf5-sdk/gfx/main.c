@@ -71,7 +71,9 @@
 #define ST7789_YELLOW      0xFFE0
 #define ST7789_ORANGE      0xFC00
 
-static const char * test_text = "makerdiary";
+#define BACKGROUND_COLOR   ST7789_BLACK
+
+static const char * test_text = "Hello, \nWorld !";
 
 extern const nrf_gfx_font_desc_t orkney_24ptFontInfo;
 extern const nrf_lcd_t nrf_lcd_st7789;
@@ -86,38 +88,13 @@ static void gfx_initialization(void)
 
 static void brackground_set(void)
 {
-    nrf_gfx_screen_fill(p_lcd, ST7789_BLACK);
+    nrf_gfx_screen_fill(p_lcd, BACKGROUND_COLOR);
 }
 
 static void text_print(void)
 {
     nrf_gfx_point_t text_start = NRF_GFX_POINT(25, 5);
-    APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &text_start, ST7789_WHITE, test_text, p_font, true));
-
-    text_start.x = 25;
-    text_start.y = 43;
     APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &text_start, ST7789_RED, test_text, p_font, true));
-
-    text_start.x = 25;
-    text_start.y = 81;
-    APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &text_start, ST7789_GREEN, test_text, p_font, true));
-
-    text_start.x = 25;
-    text_start.y = 119;
-    APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &text_start, ST7789_BLUE, test_text, p_font, true));
-
-    text_start.x = 25;
-    text_start.y = 157;
-    APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &text_start, ST7789_CYAN, test_text, p_font, true));
-
-    text_start.x = 25;
-    text_start.y = 195;
-    APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &text_start, ST7789_ORANGE, test_text, p_font, true));
-}
-
-static void screen_clear(void)
-{
-    nrf_gfx_screen_fill(p_lcd, ST7789_BLACK);
 }
 
 int main(void)
@@ -132,11 +109,21 @@ int main(void)
     
     brackground_set();
 
+	text_print();
+
+	nrf_gfx_rect_t cnt_rect = NRF_GFX_RECT(25, 100, 190, 40);
+	nrf_gfx_point_t cnt_start = NRF_GFX_POINT(29, 104);
+
+	int cnt = 0;
+	char cnt_str[10];
+
     while (1)
     {
-       text_print();
-       nrf_delay_ms(2000);
-       screen_clear();
+		sprintf(cnt_str, "%d", cnt);
+		nrf_gfx_rect_draw(p_lcd, &cnt_rect, 0, BACKGROUND_COLOR, true);
+		APP_ERROR_CHECK(nrf_gfx_print(p_lcd, &cnt_start, ST7789_GREEN, cnt_str, p_font, true));
+		cnt++;
+		nrf_delay_ms(1000);
     }
 }
 

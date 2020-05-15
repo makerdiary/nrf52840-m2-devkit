@@ -105,7 +105,6 @@ static inline void write_command(uint8_t c)
 }
 
 
-
 static void qspi_handler(nrf_drv_qspi_evt_t event, void * p_context)
 {
     UNUSED_PARAMETER(event);

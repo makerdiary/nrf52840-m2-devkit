@@ -118,12 +118,8 @@ static void battery_level_meas_timeout_handler(void * p_context)
 
     is_charging = !(bool)nrf_gpio_pin_read(BATT_CHRG_PIN);
 
-    if(is_charging)
-    {
-        NRF_LOG_INFO("Battery is charging...");
-    }
-
-    NRF_LOG_INFO("Battery level update: %d%%", battery_level);
+	NRF_LOG_INFO("Battery is %s Battery level: %d%%", is_charging? "charging...":"charged!", battery_level);
+	
 }
 
 /**@brief Function for initialization of ticker for periodical battery measurement.

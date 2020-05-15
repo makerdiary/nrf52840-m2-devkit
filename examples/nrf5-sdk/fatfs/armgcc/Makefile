@@ -197,6 +197,7 @@ release: merge
 	@echo Copying: $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex and $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
 	cp $(OUTPUT_DIRECTORY)/nrf52840_xxaa.hex $(PROJ_DIR)/hex/$(PROJECT_NAME).hex
 	cp $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex $(PROJ_DIR)/hex/$(PROJECT_NAME)_mbr.hex
+	python $(NRF52840_M2_ROOT)/tools/uf2conv.py -c -f 0xada52840 -o $(PROJ_DIR)/hex/$(PROJECT_NAME)_mbr.uf2 $(OUTPUT_DIRECTORY)/nrf52840_xxaa_mbr.hex
 
 SDK_CONFIG_FILE := ../config/sdk_config.h
 CMSIS_CONFIG_TOOL := $(SDK_ROOT)/external_tools/cmsisconfig/CMSIS_Configuration_Wizard.jar
