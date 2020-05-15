@@ -5,7 +5,7 @@ Download the SDK file [nRF5_SDK_16.0.0_98a08e2](https://www.nordicsemi.com/Softw
 Extract the zip file to the `nrf_sdks` directory. This should give you the following folder structure:
 
 ``` sh
-./nrf52840-m2/
+./nrf52840-m2-devkit/
 ├── LICENSE
 ├── README.md
 ├── boards
