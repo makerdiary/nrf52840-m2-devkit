@@ -114,10 +114,36 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - Getting Started: getting-started.md
+  - Programming: programming.md
+  - Power Profiling: power-profiling.md
   - nRF5 SDK Tutorials:
     - Overview: nrf5-sdk/index.md
+    - Setup the nRF5 SDK: nrf5-sdk/setup.md
+    - Build & Run a first example: nrf5-sdk/building.md
+    - Examples: 
+      - Peripheral:
+        - Blinky: nrf5-sdk/examples/blinky.md
+        - BSP: nrf5-sdk/examples/bsp.md
+        - Battery Status: nrf5-sdk/examples/battery.md
+        - microSD Card: nrf5-sdk/examples/microsd.md
+        - NFC Tag: nrf5-sdk/examples/nfc.md
+        - Power Profiling: nrf5-sdk/examples/power-profiling.md
+        - QSPI Flash: nrf5-sdk/examples/qspi.md
+        - RSSI Viewer: nrf5-sdk/examples/rssi-viewer.md
+        - Temperature: nrf5-sdk/examples/temperature.md
+        - TFT LCD Display: nrf5-sdk/examples/tft-lcd.md
+        - USB CDC ACM: nrf5-sdk/examples/usb-cdc-acm.md
+      - Bluetooth Low Energy:
+        - BLE Blinky: nrf5-sdk/examples/ble-blinky.md
+        - BLE Beacon: nrf5-sdk/examples/ble-beacon.md
+        - BLE Battery Service: nrf5-sdk/examples/ble-bas.md
+        - BLE CLI: nrf5-sdk/examples/ble-cli.md
+        - BLE Heart Rate Service: nrf5-sdk/examples/ble-hrs.md
+        - BLE HID Keyboard: nrf5-sdk/examples/ble-hids-keyboard.md
+        - BLE HID Mouse: nrf5-sdk/examples/ble-hids-mouse.md
   - Zephyr RTOS Tutorials:
     - Overview: zephyr/index.md
+  - Resources: resources.md
   - Where to Buy: where-to-buy.md
   - Contributing: CONTRIBUTING.md
   - License: LICENSE.md
