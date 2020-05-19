@@ -35,10 +35,10 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](../assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `fatfs/armgcc` to program the board:
+Run the following command in `fatfs/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip

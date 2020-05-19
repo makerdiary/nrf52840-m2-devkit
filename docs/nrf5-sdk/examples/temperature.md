@@ -1,6 +1,6 @@
 # Temperature Example
 
-The Temperature Example shows how to use the temperature sensor inside nRF52840 chip and print the measurement.
+The Temperature Example shows how to use the temperature sensor inside the nRF52840 chip and print the measurement.
 
 The application starts with configuring the temperature module and logging module. The main loop reads the temperature sensor and prints measurement every 500 milliseconds.
 
@@ -31,10 +31,10 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 
 ![](../assets/images/programming-firmware.png)
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `temperature/armgcc` to program the board:
+Run the following command in `temperature/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip

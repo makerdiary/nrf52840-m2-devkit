@@ -2,7 +2,7 @@
 
 ## Description
 
-The BLE Blinky Example uses the LED Button Service Server module. This module implements a custom LED Button Service with an LED and Button Characteristics that are used to toggle LEDs and receive button statuses from nRF52840 M.2 module.
+The BLE Blinky Example uses the LED Button Service Server module. This module implements a custom LED Button Service with an LED and Button Characteristics that are used to toggle LEDs and receive button statuses from the nRF52840 M.2 module.
 
 !!! Tip
 	Before you start building, remember to set up the nRF5 SDK development environment first. See [Setup the nRF5 SDK](../setup.md) for details.
@@ -17,7 +17,7 @@ Open terminal and navigate to the directory with the example Makefile:
 cd ./examples/nrf5-sdk/ble_app_blinky/armgcc
 ```
 
-Run `make merge` to build the application and merge the Softdevice:
+Run `make merge` to build the application and merge with the Softdevice:
 
 ``` sh
 make merge
@@ -32,7 +32,7 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](../assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa_s140.hex` onto the **M2-DOCK** drive, or run the following command in `ble_app_blinky/armgcc` to program the board:
+Run the following command in `ble_app_blinky/armgcc` to program the board:
 
 ``` sh
 make flash_all
@@ -43,9 +43,9 @@ make flash_all
 
 ## Testing
 
-You can test the example with the **nRF Connect** mobile app by performing the following steps:
+You can test the example with the **nRF Connect for Mobile** app by performing the following steps:
 
-1. Download the nRF Connect app from App Store or Google Play.
+1. Download the [nRF Connect for Mobile](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-mobile) from App Store or Google Play.
 
 2. Connect to the device from nRF Connect (the device is advertising as **Nordic_Blinky**).
 

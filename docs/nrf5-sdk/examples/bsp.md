@@ -34,10 +34,10 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](../assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `blinky/armgcc` to program the board:
+Run the following command in `blinky/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip
@@ -47,15 +47,15 @@ make flash
 
 Test the example by performing the following steps:
 
-Run a terminal application like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [screen](https://www.gnu.org/software/screen/manual/screen.html):
+1. Run a terminal application like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [screen](https://www.gnu.org/software/screen/manual/screen.html):
 
-``` sh
-screen /dev/cu.usbmodem14102 115200
-```
+	``` sh
+	screen /dev/cu.usbmodem14102 115200
+	```
 
-Press the USER button and observe the LEDs and output of the terminal.
+2. Press the USER button and observe the LEDs and output of the terminal.
 
-![](assets/images/bsp-logging.png)
+	![](assets/images/bsp-logging.png)
 
 
 ## Create an Issue

@@ -1,7 +1,7 @@
 # nRF52840 M.2 Developer Kit<br/><small>An open-source developer kit based on nRF52840 M.2 module, designed for IoT prototyping</small>
 
 ## Overview
-nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module]() and [M.2 Dock](). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the [nRF52840 M.2 Module]() combined with your custom PCB hardware in a short time.
+nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module]() and [M.2 Dock](). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the nRF52840 M.2 Module combined with your custom PCB hardware in a short time.
 
 The [nRF52840 M.2 Module]() is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
@@ -36,7 +36,7 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 * Li-Po Battery Charger with Power Path Management
 * User programmable LED and Button
 * 2.4 GHz and NFC cabled PCB antennas
-* MicroSD card slot
+* microSD card slot
 * Arduino form factor
 * 4 Grove Connectors
 * Reversible USB-C Connectors

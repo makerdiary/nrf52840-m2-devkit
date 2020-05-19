@@ -1,4 +1,4 @@
-# Getting Started Out of the Box
+# How to Program the nRF52840 M.2 Module
 
 
 

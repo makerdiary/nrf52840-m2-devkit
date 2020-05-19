@@ -4,7 +4,7 @@
 
 The NFC Tag Example demonstrates how to use the NFC tag to expose a URL record to NFC devices.
 
-When the application starts, it initializes the NFC tag and generates a URI message with a URI record containing the URL `makerdiary.com`. Then it sets up the NFC library to use the generated message and sense the external NFC field. The only events handled by the application are the NFC events.
+When the application starts, it initializes the NFC tag and generates a URI message with a URI record containing the URL [https://makerdiary.com](https://makerdiary.com). Then it sets up the NFC library to use the generated message and sense the external NFC field. The only events handled by the application are the NFC events.
 
 !!! Tip
 	Before you start building, remember to set up the nRF5 SDK development environment first. See [Setup the nRF5 SDK](../setup.md) for details.
@@ -35,10 +35,10 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](../assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `nfc/record_url/armgcc` to program the board:
+Run the following command in `nfc/record_url/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip
@@ -52,7 +52,7 @@ Test the NFC Tag Example with a smartphone or a tablet with NFC support by perfo
 
 2. Touch the NFC PCB Antenna with the smartphone or tablet and observe that GREEN LED is lit.
 
-3. Observe that the smartphone/tablet tries to open the URL `https://makerdairy.com` in a web browser.
+3. Observe that the smartphone/tablet tries to open the URL [https://makerdairy.com](https://makerdairy.com) in a web browser.
 
 4. Move the smartphone/tablet away from the NFC PCB Antenna and observe that GREEN LED turns off.
 

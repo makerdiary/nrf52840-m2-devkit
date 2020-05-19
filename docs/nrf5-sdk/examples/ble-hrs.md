@@ -35,7 +35,7 @@ Open terminal and navigate to the directory with the example Makefile:
 cd ./examples/nrf5-sdk/ble_app_hrs/armgcc
 ```
 
-Run `make merge` to build the application and merge the Softdevice:
+Run `make merge` to build the application and merge with the Softdevice:
 
 ``` sh
 make merge
@@ -49,8 +49,7 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 
 ![](../assets/images/programming-firmware.png)
 
-
-Drag and drop the firmware `nrf52840_xxaa_s140.hex` onto the **M2-DOCK** drive, or run the following command in `ble_app_hrs/armgcc` to program the board:
+Run the following command in `ble_app_hrs/armgcc` to program the board:
 
 ``` sh
 make flash_all
@@ -73,7 +72,7 @@ You can test the application with the **LightBlue** app by performing the follow
 
 4. Alternatively, you can visit the Web Bluetooth Demo page to test the example:
 
-	<a href="https://wiki.makerdiary.com/WebBluetoothDemos/heart-rate-sensor/" target="_blank"><button data-md-color-primary="red-bud">Web Bluetooth</button></a>
+	<a href="https://wiki.makerdiary.com/WebBluetoothDemos/heart-rate-sensor/" target="_blank"><button data-md-color-primary="red-bud" style="width:auto;">Web Bluetooth HRS</button></a>
 
 	![](assets/images/ble-app-hrs-webbluetooth.png)
 

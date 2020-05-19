@@ -4,7 +4,7 @@ This section details how to build and run the simple `Blinky` example.
 
 Before you start building, remember to set up the nRF5 SDK development environment first:
 
-<a href="setup"><button data-md-color-primary="red-bud">Setup nRF5 SDK</button></a>
+<a href="../setup"><button data-md-color-primary="red-bud">Setup nRF5 SDK</button></a>
 
 ## Building the example
 
@@ -35,15 +35,14 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `blinky/armgcc` to program the board:
+Run the following command in `blinky/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
-
 !!! Tip
-	See **[Programming](../programming.md)** section for details about how to program the nRF52840 M.2 Module.
+	See **[Programming](../programming.md)** section for more details about how to program the nRF52840 M.2 Module.
 
 ## Next Steps
 
@@ -53,13 +52,14 @@ Check out more nRF5 SDK examples for nRF52840 M.2 Developer Kit:
     - [Blinky Example](examples/blinky.md)
 	- [BSP Example](examples/bsp.md)
 	- [Battery Status Example](examples/battery.md)
-	- [MicroSD Card Example](examples/microsd.md)
+	- [microSD Card Example](examples/microsd.md)
 	- [NFC Tag Example](examples/nfc.md)
 	- [Power Profiling Example](examples/power-profiling.md)
 	- [QSPI Flash Example](examples/qspi.md)
 	- [RSSI Viewer Example](examples/rssi-viewer.md)
 	- [Temperature Example](examples/temperature.md)
 	- [TFT LCD Display Example](examples/tft-lcd.md)
+	- [USB CDC ACM Example](examples/usb-cdc-acm.md)
 
 * **Bluetooth Low Energy Examples**
 

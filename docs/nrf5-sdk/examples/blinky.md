@@ -32,18 +32,18 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](../assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `blinky/armgcc` to program the board:
+Run the following command in `blinky/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip
-	See **[Programming](../../programming.md)** section for details about how to program the nRF52840 M.2 Module.
+	See **[Programming](../../programming.md)** section for more details about how to program the nRF52840 M.2 Module.
 
 ## Testing
 
-After programmed, the application will run automatically. Observe that the LEDs are blinking:
+After programmed, the application will run automatically. Observe that the LEDs will start to blink as shown in this figure:
 
 ![Blinky image]()
 

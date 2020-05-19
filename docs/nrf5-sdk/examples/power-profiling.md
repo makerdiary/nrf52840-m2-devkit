@@ -4,7 +4,9 @@
 
 The Power Profiling Example demonstrates how to place the board into a minimum power consumption state and perform the real-time current profiling.
 
-This example application starts up, sends the Deep Power-down (DP) instruction to the QSPI flash memory and puts the TFT LCD into sleep mode. When the USER button is pressed, the board enters the System OFF mode. The current can be measured by the advanced power profiling module on M.2 Dock.
+This example application starts up, sends the Deep Power-down (DP) instruction to the QSPI flash memory and puts the TFT LCD into sleep mode. 
+
+When the USER button is pressed, the board enters the System OFF mode. The minimum current can be measured by the advanced power profiling module on M.2 Dock.
 
 !!! Tip
 	Before you start building, remember to set up the nRF5 SDK development environment first. See [Setup the nRF5 SDK](../setup.md) for details.
@@ -34,10 +36,10 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 
 ![](../assets/images/programming-firmware.png)
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `pwr_mgmt/armgcc` to program the board:
+Run the following command in `pwr_mgmt/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip
@@ -45,19 +47,30 @@ make flash
 
 ## Testing
 
-Measure the appplication current by performing the following steps:
+To measure the appplication current by performing the following steps:
 
-1. Connect the debugger USB port to your PC
-
-2. When the **M2-DOCK** drive appears, navigate to the `tools` directory and run:
+1. Open the terminal and install `power-profiler` utility. **Skip** this step if `power-profiler` already exists.
 
 	``` sh
-	python3 power-profiler.py
+	pip3 install power-profiler
 	```
 
-3. Zoom in the current axis to the best view and observe the current curve
+2. Connect the debugger USB port to your PC
 
-4. Press the USER button and observe the curve is sloping down.
+3. When the **M2-DOCK** drive appears, start the `power-profiler` in the terminal:
+
+	``` sh
+	power-profiler
+	```
+
+4. The Power Profiler window will appear. Zoom in the current axis to the best view and observe the current curve
+
+	![sleep mode current curve]()
+
+5. Press the USER button to enter the System OFF mode. Observe that the current curve is sloping down:
+
+	![system off mode current curve]()
+
 
 !!! Tip
 	See **[Power Profiling](../../power-profiling.md)** section for details about how to perform the real-time current profiling.

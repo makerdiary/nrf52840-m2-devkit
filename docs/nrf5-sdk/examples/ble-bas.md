@@ -25,7 +25,7 @@ Open terminal and navigate to the directory with the example Makefile:
 cd ./examples/nrf5-sdk/ble_app_bas/armgcc
 ```
 
-Run `make merge` to build the application and merge the Softdevice:
+Run `make merge` to build the application and merge with the Softdevice:
 
 ``` sh
 make merge
@@ -40,7 +40,7 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 ![](../assets/images/programming-firmware.png)
 
 
-Drag and drop the firmware `nrf52840_xxaa_s140.hex` onto the **M2-DOCK** drive, or run the following command in `ble_app_bas/armgcc` to program the board:
+Run the following command in `ble_app_bas/armgcc` to program the board:
 
 ``` sh
 make flash_all

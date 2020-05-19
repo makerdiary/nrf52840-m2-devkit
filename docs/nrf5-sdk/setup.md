@@ -22,8 +22,8 @@ Follow the steps below to set up the development environment on macOS:
 2. Download and install the [GNU ARM Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). The `7-2018-q2-update` version is recommended. Then ensure the path is added to your OS PATH environment variable.
 
     ``` sh
-    # in ~/.bash_profile, add the following script
-    export PATH="<path to install directory>/gcc-arm-none-eabi-7-2018-q2-update/bin:${PATH}"
+	echo 'export PATH="<path to install directory>/gcc-arm-none-eabi-7-2018-q2-update/bin:${PATH}"' >> ~/.bash_profile
+	source ~/.bash_profile
     ```
     Type the following in your terminal to verify if the path is set correctly:
 
@@ -33,9 +33,9 @@ Follow the steps below to set up the development environment on macOS:
 
 3. Download the [nRF5x-Command-Line-Tools-OSX](https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line-Tools/Download#infotabs), then extract the `.tar` archive anywhere on your filesystem. Ensure the extracted directory is added to your OS PATH environment variable.
 
-    ``` sh
-    # in ~/.bash_profile, add the following script
-    export PATH="<the path to the extracted directory>:${PATH}"
+    ``` sh 
+	echo 'export PATH="<the path to the extracted directory>/mergehex:${PATH}"' >> ~/.bash_profile
+	source ~/.bash_profile
     ```
 
     Type the following in your terminal to verify if `mergehex` works:
@@ -53,9 +53,6 @@ Follow the steps below to set up the development environment on macOS:
 	``` sh
 	pyocd --version
 	```
-
-!!! tip
-	pyOCD is an open source Python package for programming and debugging Arm Cortex-M microcontrollers using multiple supported types of USB debug probes. If you have a CMSIS-DAP debug probe, it's recommended to install pyOCD.	
 
 ### Windows
 
@@ -103,28 +100,26 @@ The following instructions rely on [Chocolatey](https://chocolatey.org/). If Cho
 
 ### Linux
 
-Here we describe how to set up the toolchain on Ubuntu. The steps should be similar for other Linux distributions.
+Here we describe how to set up the toolchain on Ubuntu version 18.04 LTS. The steps should be similar for other Linux distributions.
 
 1. Ensure your host system is up to date before proceeding.
 
     ``` sh
-    sudo apt-get update
-    ```
-    ``` sh
-    sudo apt-get upgrade
+    sudo apt update
+    sudo apt upgrade
     ```
 
 2. Install the following packages using your system’s package manager.
 
     ``` sh
-    sudo apt-get install build-essential checkinstall
+    sudo apt install build-essential checkinstall
     ```
 
 3. Download and install the [GNU ARM Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). The `7-2018-q2-update` version is recommended. Then ensure the path is added to your OS PATH environment variable.
 
     ``` sh
-    # in ~/.bash_profile, add the following script
-    export PATH="<path to install directory>/gcc-arm-none-eabi-7-2018-q2-update/bin:${PATH}"
+	echo 'export PATH="<path to install directory>/gcc-arm-none-eabi-7-2018-q2-update/bin:${PATH}"' >> ~/.bashrc
+	source ~/.bashrc
     ```
     Type the following in your terminal to verify if the path is set correctly:
 
@@ -135,8 +130,8 @@ Here we describe how to set up the toolchain on Ubuntu. The steps should be simi
 4. Download the [nRF5x-Command-Line-Tools-Linux-xxx](https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line-Tools/Download#infotabs), then extract the `.tar` archive anywhere on your filesystem. Ensure the extracted directory is added to your OS PATH environment variable.
 
     ``` sh
-    # in ~/.bash_profile, add the following script
-    export PATH="<the path to the extracted directory>:${PATH}"
+	echo 'export PATH="<the path to the extracted directory>/mergehex:${PATH}"' >> ~/.bashrc
+	source ~/.bashrc
     ```
 
     Type the following in your terminal to verify if `mergehex` works:
@@ -144,7 +139,7 @@ Here we describe how to set up the toolchain on Ubuntu. The steps should be simi
     mergehex --version
     ```
 
-5. nstall the latest stable version of [pyOCD](https://github.com/mbedmicro/pyOCD) via `pip` as follows. **Skip** this step if pyOCD already exists.
+5. Install the latest stable version of [pyOCD](https://github.com/mbedmicro/pyOCD) via `pip` as follows. **Skip** this step if pyOCD already exists.
 
 	``` sh
 	pip install -U pyocd

@@ -141,8 +141,22 @@ nav:
         - BLE Heart Rate Service: nrf5-sdk/examples/ble-hrs.md
         - BLE HID Keyboard: nrf5-sdk/examples/ble-hids-keyboard.md
         - BLE HID Mouse: nrf5-sdk/examples/ble-hids-mouse.md
-  - Zephyr RTOS Tutorials:
+  - Zephyr OS Tutorials:
     - Overview: zephyr/index.md
+    - Setup the toolchain: zephyr/setup.md
+    - Build & Run a first example: zephyr/building.md
+    - Examples:
+      - Overview: zephyr/examples/index.md
+      - Hello World: zephyr/examples/hello-world.md
+      - Blinky: zephyr/examples/blinky.md
+      - Button: zephyr/examples/button.md
+      - SPI Flash: zephyr/examples/spi-flash.md
+      - FAT Filesystem: zephyr/examples/fat-fs.md
+      - LittlevGL: zephyr/examples/littlevgl.md
+      - File System Shell: zephyr/examples/shell-fs.md
+      - BLE Beacon: zephyr/examples/ble-beacon.md
+      - BLE Peripheral DIS: zephyr/examples/ble-dis.md
+      - BLE Peripheral HIDs: zephyr/examples/ble-hids.md
   - Resources: resources.md
   - Where to Buy: where-to-buy.md
   - Contributing: CONTRIBUTING.md

@@ -34,10 +34,10 @@ Connect the debugger USB port to your PC using the provided USB-C Cable. A disk 
 
 ![](../assets/images/programming-firmware.png)
 
-Drag and drop the firmware `nrf52840_xxaa.hex` onto the **M2-DOCK** drive, or run the following command in `rssi_viewer/armgcc` to program the board:
+Run the following command in `rssi_viewer/armgcc` to program the board:
 
 ``` sh
-make flash
+make flash_all
 ```
 
 !!! Tip
@@ -51,7 +51,7 @@ Test the RSSI Viewer Example application by performing the following steps:
 
 	![](assets/images/install-rssi-viewer-app.png)
 
-2. Connect to the nRF52840 M.2 Module USB port, open RSSI Viewer app and select the **USB CDC ACM** port.
+2. Connect to the nRF52840 M.2 Module USB port, open the RSSI Viewer app and select the **USB CDC ACM** port.
 
 	![](assets/images/rssi-viewer-connecting.png)
 
