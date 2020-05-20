@@ -24,6 +24,8 @@ release_all:
 	cd ble_app_hids_keyboard/armgcc && make release
 	cd ble_app_hids_keyboard_pairing_nfc/armgcc && make release
 	cd ble_app_hids_mouse/armgcc && make release
+	cd ble_app_att_mtu_throughput/tester/armgcc && make release
+	cd ble_app_att_mtu_throughput/responder/armgcc && make release
 
 # Clean all builds
 clean_all:
@@ -48,3 +50,5 @@ clean_all:
 	cd ble_app_hids_keyboard/armgcc && make clean
 	cd ble_app_hids_keyboard_pairing_nfc/armgcc && make clean
 	cd ble_app_hids_mouse/armgcc && make clean
+	cd ble_app_att_mtu_throughput/tester/armgcc && make clean
+	cd ble_app_att_mtu_throughput/responder/armgcc && make clean
