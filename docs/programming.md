@@ -1,9 +1,88 @@
 # How to Program the nRF52840 M.2 Module
 
+## Description
 
+The [M.2 Dock](../../m2-dock) features a fully-integrated DAPLink debugger, which enables you to program and debug the nRF52840 M.2 Module. 
+
+This section describes how to program the nRF52840 M.2 Module using the M.2 Dock. You have the following two options to program your module:
+
+* [Drag-n-Drop Programming](#drag-n-drop-programming)
+* [Using pyOCD Command Tool](#using-pyocd-command-tool)
+
+## Prepare for Programming
+
+Assemble the M.2 Module, then connect the **Debugger USB port** to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
+
+![](assets/images/programming-firmware.png)
+
+## Drag-n-Drop Programming
+
+Drag-n-Drop is an optional intuitive programming feature. It allows programming of your target MCU in a very simple way: dragging and dropping a file (`.hex`-format) onto the **M2-DOCK** drive.
+
+There is no need to install application software. Anyone that can drag and drop a file to a USB memory stick can now program the target module.
+
+![](assets/images/drag-n-drop-programming.png)
+
+!!! tip
+	Upon completion, the drive remounts. If a failure occurs, the file `FAIL.TXT` appears on the drive containing information about the failure.
+
+## Using pyOCD Command Tool
+
+[pyOCD](https://github.com/mbedmicro/pyOCD) is an open source Python package for programming and debugging Arm Cortex-M microcontrollers using the DAPLink debugger. It is fully cross-platform, with support for Linux, macOS, and Windows.
+
+The latest stable version of pyOCD can be installed via [pip](https://pip.pypa.io/en/stable/index.html) as follows. **Skip** the installation if pyOCD already exists.
+
+``` sh
+pip install -U pyocd
+```
+
+List information about the probe connected to your computer by running:
+
+``` sh
+pyocd list
+```
+
+The output should be similar as below:
+
+``` sh
+  #   Probe                   Unique ID
+--------------------------------------------------------------------------------
+  0   ARM DAPLink CMSIS-DAP   10283602185129a100000000000000000000000097969902
+```
+
+The following commands demonstrate how to flash/erase the nRF52840 M.2 Module:
+
+* To erase the whole flash of the nRF52840 target:
+
+	``` sh
+	pyocd erase -t nrf52840 --chip
+	```
+
+* To flash the nRF52840 target with `.hex`-format firmware:
+
+	``` sh
+	pyocd flash -t nrf52840 Sample.hex
+	```
+
+* To flash the nRF52840 target with a plain binary:
+
+	``` sh
+	pyocd flash -t nrf52840 --base-address 0x1000 Sample.bin
+	```
+	The `--base-address` option is used for setting the address where to flash a binary. Defaults to start of flash.
+
+
+!!! tip
+	Run `pyocd --hlep` to get the available commands and additional help.
+
+## Reference
+
+* [M.2 Dock User's Guide](../../m2-dock)
+* [DAPLink User's Guide](https://github.com/ARMmbed/DAPLink/blob/master/docs/USERS-GUIDE.md)
+* [pyOCD Documentation](https://github.com/mbedmicro/pyOCD/tree/master/docs)
 
 ## Create an Issue
 
 Interested in contributing to this project? Want to report a bug? Feel free to click here:
 
-<a href="https://github.com/makerdiary/nrf52840-m2-devkit/issues/new?title=Getting%20Started:%20%3Ctitle%3E"><button data-md-color-primary="red-bud"><i class="fa fa-github"></i> Create an Issue</button></a>
+<a href="https://github.com/makerdiary/nrf52840-m2-devkit/issues/new?title=Programming:%20%3Ctitle%3E"><button data-md-color-primary="red-bud"><i class="fa fa-github"></i> Create an Issue</button></a>
