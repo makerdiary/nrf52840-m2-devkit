@@ -39,7 +39,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](assets/images/programming-firmware.png)
+![](../assets/images/programming-firmware.png)
 
 Run the following command to flash the board:
 
