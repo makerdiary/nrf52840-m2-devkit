@@ -33,7 +33,7 @@ If compiled successfully, the firmware is located in `ble_app_hids_keyboard/armg
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.png)
 
 Run the following command in `ble_app_hids_keyboard/armgcc` to program the board:
 

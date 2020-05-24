@@ -32,7 +32,7 @@ If compiled successfully, the firmware is located in `rssi_viewer/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.png)
 
 Run the following command in `rssi_viewer/armgcc` to program the board:
 

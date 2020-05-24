@@ -31,7 +31,7 @@ After compiled, the firmware is located in `bsp/armgcc/_build` with the name `nr
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.png)
 
 
 Run the following command in `blinky/armgcc` to program the board:

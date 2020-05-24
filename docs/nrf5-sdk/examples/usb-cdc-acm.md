@@ -29,7 +29,7 @@ If compiled successfully, the firmware is located in `usb_cdc_acm/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.png)
 
 Run the following command in `usb_cdc_acm/armgcc` to program the board:
 

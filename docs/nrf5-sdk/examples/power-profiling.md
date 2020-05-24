@@ -34,7 +34,7 @@ If compiled successfully, the firmware is located in `pwr_mgmt/armgcc/_build` wi
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.png)
 
 Run the following command in `pwr_mgmt/armgcc` to program the board:
 
@@ -49,27 +49,25 @@ make flash_all
 
 To measure the appplication current by performing the following steps:
 
-1. Open the terminal and install `power-profiler` utility. **Skip** this step if `power-profiler` already exists.
+1. Open the terminal and install Power Profiler utility. **Skip** this step if Power Profiler already exists.
 
 	``` sh
 	pip3 install power-profiler
 	```
 
-2. Connect the debugger USB port to your PC
-
-3. When the **M2-DOCK** drive appears, start the `power-profiler` in the terminal:
+2. Connect the debugger USB port to your PC. When the **M2-DOCK** drive appears, start the Power Profiler in the terminal:
 
 	``` sh
 	power-profiler
 	```
 
-4. The Power Profiler window will appear. Zoom in the current axis to the best view and observe the current curve
+3. The Power Profiler window will appear. Observe the current curve in the normal mode:
 
-	![sleep mode current curve]()
+	![](assets/images/power-profiling-normal-mode.png)
 
 5. Press the USER button to enter the System OFF mode. Observe that the current curve is sloping down:
 
-	![system off mode current curve]()
+	![](assets/images/power-profiling-system-off-mode.png)
 
 
 !!! Tip
