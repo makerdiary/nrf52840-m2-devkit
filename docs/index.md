@@ -1,11 +1,11 @@
 # nRF52840 M.2 Developer Kit<br/><small>An open-source developer kit based on nRF52840 M.2 module, designed for IoT prototyping</small>
 
 ## Overview
-nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module]() and [M.2 Dock](). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the nRF52840 M.2 Module combined with your custom PCB hardware in a short time.
+nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](../nrf52840-m2) and [M.2 Dock](../m2-dock). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the nRF52840 M.2 Module combined with your custom PCB hardware in a short time.
 
-The [nRF52840 M.2 Module]() is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
+The [nRF52840 M.2 Module](../nrf52840-m2) is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
-The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
+The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
 
 ![kit image]()
 
@@ -26,9 +26,9 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 	- HID/WEBUSB HID - CMSIS-DAP compliant debug channel
 
 * Advanced Power Profiling
-	- 0~690 mA wide current measurement range
+	- Up to 690 mA current measurement
 	- Voltage tracking
-	- Up to 30 kHz sampling rate
+	- 30000 samples per second
 	- Precision amplifiers with dual gain stage
 	- Cross-platform utility available in Python
 
@@ -42,6 +42,8 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 * Reversible USB-C Connectors
 
 ## Hardware Diagram
+
+The hardware diagram of the nRF52840 M.2 Developer Kit is shown below.
 
 ## Included in the Box
 |    **Part**                | **Qty** |
@@ -57,7 +59,7 @@ We think the best way to learn is by doing. And to help you get started, we have
 
 * [Getting Started with nRF52840 M.2 Developer Kit](getting-started.md)
 * [How to Program the nRF52840 M.2 Module](programming.md)
-* [How to Use Power Profiling](power-profiling.md)
+* [Getting Started with Power Profiling](power-profiling.md)
 * [nRF5 SDK Tutorials](nrf5-sdk/index.md)
 * [Zephyr RTOS Tutorials](zephyr/index.md)
 

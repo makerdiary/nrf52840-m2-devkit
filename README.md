@@ -26,9 +26,9 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 	- HID/WEBUSB HID - CMSIS-DAP compliant debug channel
 
 * Advanced Power Profiling
-	- 0~690 mA wide current measurement range
+	- Up to 690 mA current measurement
 	- Voltage tracking
-	- Up to 30 kHz sampling rate
+	- 30000 samples per second
 	- Precision amplifiers with dual gain stage
 	- Cross-platform utility available in Python
 
@@ -36,7 +36,29 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 * Li-Po Battery Charger with Power Path Management
 * User programmable LED and Button
 * 2.4 GHz and NFC cabled PCB antennas
-* MicroSD card slot
+* microSD card slot
 * Arduino form factor
 * 4 Grove Connectors
 * Reversible USB-C Connectors
+
+## Hardware Diagram
+
+## Included in the Box
+|    **Part**                | **Qty** |
+| -------------------------- | ------- |
+| nRF52840 M.2 Module        | 1       |
+| M.2 Dock                   | 1       |
+| 2.4 GHz Cabled PCB Antenna | 1       |
+| NFC Cabled PCB Antenna     | 1       |
+| USB-C Cable                | 1       |
+
+## Tutorials
+We think the best way to learn is by doing. And to help you get started, we have provided a series of tutorials. Find the details below:
+
+* [nRF52840 M.2 Developer Kit Wiki](https://wiki.makerdiary.com/nrf52840-m2-devkit)
+* [Getting Started with nRF52840 M.2 Developer Kit](https://wiki.makerdiary.com/nrf52840-m2-devkit/getting-started)
+* [How to Program the nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2-devkit/programming)
+* [Getting Started with Power Profiling](https://wiki.makerdiary.com/nrf52840-m2-devkit/power-profiling)
+* [nRF5 SDK Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/nrf5-sdk)
+* [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
+
