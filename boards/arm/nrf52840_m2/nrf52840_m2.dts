@@ -144,7 +144,7 @@
 };
 
 &uart0 {
-	compatible = "nordic,nrf-uarte";
+	compatible = "nordic,nrf-uart";
 	status = "okay";
 	current-speed = <115200>;
 	tx-pin = <16>;
