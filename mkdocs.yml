@@ -157,6 +157,17 @@ nav:
       - BLE Beacon: zephyr/examples/ble-beacon.md
       - BLE Peripheral DIS: zephyr/examples/ble-dis.md
       - BLE Peripheral HIDs: zephyr/examples/ble-hids.md
+  - Python on Microcontroller:
+    - Overview: python/index.md
+    - Install Python on Microcontroller: python/install.md
+    - Examples:
+      - Overview: python/examples/index.md
+      - Blinky: python/examples/blinky.md
+      - Button: python/examples/button.md
+      - SD Card: python/examples/sdcard.md
+      - LCD: python/examples/lcd.md
+      - USB Keyboard: python/examples/usb-keyboard.md
+      - BLE Keyboard: python/examples/ble-keyboard.md
   - Resources: resources.md
   - Where to Buy: where-to-buy.md
   - Contributing: CONTRIBUTING.md
