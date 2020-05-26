@@ -32,6 +32,7 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 	- Precision amplifiers with dual gain stage
 	- Cross-platform utility available in Python
 
+* Shipped with Python Interpreter firmware
 * 1.3" 240x240 Color IPS TFT LCD Display
 * Li-Po Battery Charger with Power Path Management
 * User programmable LED and Button
@@ -42,6 +43,11 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 * Reversible USB-C Connectors
 
 ## Hardware Diagram
+
+The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
+
+![](docs/assets/images/m2devkit-diagram-1x.png)
+
 
 ## Included in the Box
 |    **Part**                | **Qty** |
@@ -59,6 +65,7 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Getting Started with nRF52840 M.2 Developer Kit](https://wiki.makerdiary.com/nrf52840-m2-devkit/getting-started)
 * [How to Program the nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2-devkit/programming)
 * [Getting Started with Power Profiling](https://wiki.makerdiary.com/nrf52840-m2-devkit/power-profiling)
+* [Python on Microcontroller](https://wiki.makerdiary.com/nrf52840-m2-devkit/python)
 * [nRF5 SDK Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/nrf5-sdk)
 * [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
 
