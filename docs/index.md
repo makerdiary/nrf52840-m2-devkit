@@ -43,7 +43,9 @@ The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 M
 
 ## Hardware Diagram
 
-The hardware diagram of the nRF52840 M.2 Developer Kit is shown below.
+The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
+
+![](assets/images/m2devkit-diagram-1x.png)
 
 ## Included in the Box
 |    **Part**                | **Qty** |
