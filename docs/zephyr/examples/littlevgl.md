@@ -26,7 +26,7 @@ Build the example by performing the following steps:
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/lvgl
 	```
 	
-	![](assets/images/building-lvgl.png)
+	![](assets/images/building-lvgl.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -41,7 +41,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -49,7 +49,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](assets/images/flashing-lvgl.png)
+![](assets/images/flashing-lvgl.webp)
 
 ## Testing
 
@@ -65,7 +65,7 @@ Test the LittlevGL Example application by performing the following steps:
 
 3. Press RESET button, and observe the output of the terminal:
 
-	![](assets/images/logging-lvgl.png)
+	![](assets/images/logging-lvgl.webp)
 
 4. Observe the graphic objects on the LCD screen:
 

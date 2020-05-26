@@ -29,7 +29,7 @@ If compiled successfully, the firmware is located in `ble_app_blinky/armgcc/_bui
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 
 Run the following command in `ble_app_blinky/armgcc` to program the board:
@@ -59,7 +59,7 @@ You can test the example with the **nRF Connect for Mobile** app by performing t
 
 7. Write `00` to the *`LED State Characteristic`* and observe that RED LED is turned off.
 
-[![](assets/images/ble-app-blinky-example.jpg)](assets/images/ble-app-blinky-example.jpg)
+[![](assets/images/ble-app-blinky-example.webp)](assets/images/ble-app-blinky-example.webp)
 
 ## Create an Issue
 

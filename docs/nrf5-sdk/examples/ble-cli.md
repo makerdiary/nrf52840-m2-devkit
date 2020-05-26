@@ -31,7 +31,7 @@ If compiled successfully, the firmware is located in `ble_app_cli/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 
 Run the following command in `ble_app_cli/armgcc` to program the board:
@@ -61,7 +61,7 @@ Perform the following steps to test the BLE CLI example:
 
 6. Use command `led {R} {G} {B}` to set the RGB LED color and observe the RGB LED on the module.
 
-[![](assets/images/ble-app-cli-example.png)](assets/images/ble-app-cli-example.png)
+[![](assets/images/ble-app-cli-example.webp)](assets/images/ble-app-cli-example.webp)
 
 ## Create an Issue
 

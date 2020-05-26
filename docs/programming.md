@@ -13,7 +13,7 @@ This section describes how to program the nRF52840 M.2 Module using the M.2 Dock
 
 Assemble the M.2 Module, then connect the **Debugger USB port** to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](assets/images/programming-firmware.png)
+![](assets/images/programming-firmware.webp)
 
 ## Drag-n-Drop Programming
 
@@ -21,7 +21,7 @@ Drag-n-Drop is an optional intuitive programming feature. It allows programming 
 
 There is no need to install application software. Anyone that can drag and drop a file to a USB memory stick can now program the target module.
 
-![](assets/images/drag-n-drop-programming.png)
+![](assets/images/drag-n-drop-programming.webp)
 
 !!! tip
 	Upon completion, the drive remounts. If a failure occurs, the file `FAIL.TXT` appears on the drive containing information about the failure.

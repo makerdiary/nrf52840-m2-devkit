@@ -29,7 +29,7 @@ If compiled successfully, the firmware is located in `usb_cdc_acm/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command in `usb_cdc_acm/armgcc` to program the board:
 
@@ -58,11 +58,11 @@ Test the USB CDC ACM Example application by performing the following steps:
 
 3. Send test data from the second terminal to the module. Observe that the RED LED will blink and the debugger COM port will print the test data:
 
-	![](assets/images/usb-cdc-acm-logging.png)
+	![](assets/images/usb-cdc-acm-logging.webp)
 
 4. Press USER Button. A test frame will be sent from the module. BLUE LED state will change. The transmitted data will display on the second terminal window as well.
 
-	![](assets/images/usb-cdc-acm-receiving.png)
+	![](assets/images/usb-cdc-acm-receiving.webp)
 
 !!! Note
 	Windows 8 (and later) hosts will pick the correct driver (`usbser.sys`) automatically. If you are running Windows 7, the [USB CDC ACM driver](https://github.com/makerdiary/nrf52840-m2-devkit/tree/master/usb_drivers) should be installed manually.

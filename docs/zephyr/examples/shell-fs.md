@@ -26,7 +26,7 @@ Build the example by performing the following steps:
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/shell/fs
 	```
 	
-	![](assets/images/building-shell-fs.png)
+	![](assets/images/building-shell-fs.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -41,7 +41,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -49,7 +49,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](assets/images/flashing-shell-fs.png)
+![](assets/images/flashing-shell-fs.webp)
 
 ## Testing
 
@@ -89,7 +89,7 @@ Test the File System Shell Example application by performing the following steps
 	fs mount littlefs /lfs
 	```
 
-	![](assets/images/logging-shell-fs.png)
+	![](assets/images/logging-shell-fs.webp)
 
 
 ## Create an Issue

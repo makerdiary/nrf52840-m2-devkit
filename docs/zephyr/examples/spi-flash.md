@@ -26,7 +26,7 @@ Build the example by performing the following steps:
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/spi_flash
 	```
 	
-	![](assets/images/building-spi-flash.png)
+	![](assets/images/building-spi-flash.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -41,7 +41,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -49,7 +49,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](assets/images/flashing-spi-flash.png)
+![](assets/images/flashing-spi-flash.webp)
 
 ## Testing
 
@@ -63,7 +63,7 @@ Test the Button Example application by performing the following steps:
 
 2. Press the RESET button, and observe the output of the terminal:
 
-	![](assets/images/logging-spi-flash.png)
+	![](assets/images/logging-spi-flash.webp)
 
 ## Create an Issue
 

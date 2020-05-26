@@ -32,7 +32,7 @@ If compiled successfully, the firmware is located in `rssi_viewer/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command in `rssi_viewer/armgcc` to program the board:
 
@@ -49,15 +49,15 @@ Test the RSSI Viewer Example application by performing the following steps:
 
 1. Install the **RSSI Viewer** app in [nRF Connect for Desktop](https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Connect-for-desktop) by clicking <kbd>Install</kbd>.
 
-	![](assets/images/install-rssi-viewer-app.png)
+	![](assets/images/install-rssi-viewer-app.webp)
 
 2. Connect to the nRF52840 M.2 Module USB port, open the RSSI Viewer app and select the **USB CDC ACM** port.
 
-	![](assets/images/rssi-viewer-connecting.png)
+	![](assets/images/rssi-viewer-connecting.webp)
 
 3. Observe the RSSI data chart and try to tweak settings like sweep delay and animation duration.
 
-	![](assets/images/running-rssi-viewer.png)
+	![](assets/images/running-rssi-viewer.webp)
 
 ## Create an Issue
 

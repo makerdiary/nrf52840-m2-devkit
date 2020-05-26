@@ -24,7 +24,7 @@ Build the example by performing the following steps:
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/bluetooth/beacon
 	```
 	
-	![](assets/images/building-ble-beacon.png)
+	![](assets/images/building-ble-beacon.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -39,7 +39,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -47,7 +47,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](assets/images/flashing-ble-beacon.png)
+![](assets/images/flashing-ble-beacon.webp)
 
 ## Testing
 
@@ -78,7 +78,7 @@ Test the Bluetooth Beacon Example application by performing the following steps:
 
 4. Start the [nRF Connect for Mobile](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-mobile) app, scan the device and observe that the beacon is advertising an Eddystone URL ([https://makerdiary.com](https://makerdiary.com)) with the Device Name **Test beacon**.
 
-	[![](assets/images/nrf-connect-ble-beacon.jpg)](assets/images/nrf-connect-ble-beacon.jpg)
+	[![](assets/images/nrf-connect-ble-beacon.webp)](assets/images/nrf-connect-ble-beacon.webp)
 
 ## Create an Issue
 

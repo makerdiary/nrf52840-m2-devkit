@@ -32,7 +32,7 @@ If compiled successfully, the firmware is located in `fatfs/armgcc/_build` with 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 
 Run the following command in `fatfs/armgcc` to program the board:
@@ -62,7 +62,7 @@ Test the microSD Card Example application by performing the following steps:
 
 5. Observe the output of the terminal:
 
-	![](assets/images/microsd-card-info.png)
+	![](assets/images/microsd-card-info.webp)
 
 
 ## Create an Issue

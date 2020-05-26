@@ -24,7 +24,7 @@ Build the example by performing the following steps:
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/bluetooth/peripheral_hids
 	```
 
-	![](assets/images/building-ble-hids.png)
+	![](assets/images/building-ble-hids.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -39,7 +39,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -47,7 +47,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](assets/images/flashing-ble-hids.png)
+![](assets/images/flashing-ble-hids.webp)
 
 ## Testing
 
@@ -83,7 +83,7 @@ Test the Peripheral HIDs Example application by performing the following steps:
 
 5. You will be asked for a passkey. Enter the passkey printed in the terminal, then click <kbd>Connect</kbd>:
 
-	![](assets/images/macos-ble-hids.png)
+	![](assets/images/macos-ble-hids.webp)
 
 
 ## Create an Issue

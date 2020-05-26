@@ -47,7 +47,7 @@ If compiled successfully, the firmware is located in `ble_app_hrs/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command in `ble_app_hrs/armgcc` to program the board:
 
@@ -68,13 +68,13 @@ You can test the application with the **LightBlue** app by performing the follow
 
 3. Observe that the services are shown in the connected device and that you can start receiving values for the **Heart Rate Measurement** and the **Battery Service** by clicking the `Listen for notifications`. Heart Rate notifications are received every second, and Battery Level notifications are received every two seconds.
 
-	![](assets/images/ble-app-hrs-example.jpg)
+	![](assets/images/ble-app-hrs-example.webp)
 
 4. Alternatively, you can visit the Web Bluetooth Demo page to test the example:
 
 	<a href="https://wiki.makerdiary.com/WebBluetoothDemos/heart-rate-sensor/" target="_blank"><button data-md-color-primary="red-bud" style="width:auto;">Web Bluetooth HRS</button></a>
 
-	![](assets/images/ble-app-hrs-webbluetooth.png)
+	![](assets/images/ble-app-hrs-webbluetooth.webp)
 
 ## Create an Issue
 

@@ -26,7 +26,7 @@ After the conversion is completed, the samples are exported to the Power Profile
 
 The figure below shows how the Advanced Power Profiler works:
 
-![](assets/images/power-profiler-diagram.png)
+![](assets/images/power-profiler-diagram.webp)
 
 ## Installing the Power Profiler
 
@@ -44,7 +44,7 @@ The steps below demonstrates how to use the Power Profiler utility to perform re
 
 1. Assemble the M.2 Module, then connect the **Debugger USB port** to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-	![](assets/images/programming-firmware.png)
+	![](assets/images/programming-firmware.webp)
 
 2. Program the board with your application firmware. Will use the [Blinky](../nrf5-sdk/examples/blinky) example here to keep it simple.
 
@@ -56,7 +56,7 @@ The steps below demonstrates how to use the Power Profiler utility to perform re
 
 4. The Power Profiler window will appear. Observe the current curve:
 
-	![](assets/images/blinky-power-profiling.png)
+	![](assets/images/blinky-power-profiling.webp)
 
 5. You can try more example applications and measure their real-time power consumption.
 

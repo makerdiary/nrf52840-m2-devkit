@@ -24,7 +24,7 @@ Build the example by performing the following steps:
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/button
 	```
 	
-	![](assets/images/building-button.png)
+	![](assets/images/building-button.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -39,7 +39,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -47,7 +47,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](assets/images/flashing-button.png)
+![](assets/images/flashing-button.webp)
 
 ## Testing
 
@@ -61,7 +61,7 @@ Test the Button Example application by performing the following steps:
 
 2. Press the USER button, and observe the output of the terminal. When the button gets pressed, the interrupt handler will print an information about this event along with its timestamp.
 
-	![](assets/images/logging-button.png)
+	![](assets/images/logging-button.webp)
 
 ## Create an Issue
 

@@ -31,7 +31,7 @@ If compiled successfully, the firmware is located in `qspi/armgcc/_build` with t
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command in `qspi/armgcc` to program the board:
 
@@ -54,7 +54,7 @@ Test the QSPI Example application by performing the following steps:
 
 2. Press the RESET button, and observe the output of the terminal.
 
-	![](assets/images/qspi-logging.png)
+	![](assets/images/qspi-logging.webp)
 
 
 ## Create an Issue

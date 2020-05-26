@@ -24,7 +24,7 @@ The `Blinky` example shows how to blink the GREEN LED. The source code is locate
 	west build -b nrf52840_m2 nrf52840-m2-devkit/examples/zephyr/blinky
 	```
 	
-	![](examples/assets/images/building-blinky.png)
+	![](examples/assets/images/building-blinky.webp)
 
 !!! tip
 	If a build system is present, make the build folder pristine before building:
@@ -39,7 +39,7 @@ After compiled successfully, the firmware is located in `m2devkit/build/zephyr` 
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../assets/images/programming-firmware.png)
+![](../assets/images/programming-firmware.webp)
 
 Run the following command to flash the board:
 
@@ -47,7 +47,7 @@ Run the following command to flash the board:
 west flash
 ```
 
-![](examples/assets/images/flashing-blinky.png)
+![](examples/assets/images/flashing-blinky.webp)
 
 After programmed, the application will run automatically. Observe that the LED will start to blink as shown in this figure:
 

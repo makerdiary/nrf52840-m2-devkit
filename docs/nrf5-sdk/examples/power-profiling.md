@@ -34,7 +34,7 @@ If compiled successfully, the firmware is located in `pwr_mgmt/armgcc/_build` wi
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command in `pwr_mgmt/armgcc` to program the board:
 
@@ -63,11 +63,11 @@ To measure the appplication current by performing the following steps:
 
 3. The Power Profiler window will appear. Observe the current curve in the normal mode:
 
-	![](assets/images/power-profiling-normal-mode.png)
+	![](assets/images/power-profiling-normal-mode.webp)
 
 5. Press the USER button to enter the System OFF mode. Observe that the current curve is sloping down:
 
-	![](assets/images/power-profiling-system-off-mode.png)
+	![](assets/images/power-profiling-system-off-mode.webp)
 
 
 !!! Tip

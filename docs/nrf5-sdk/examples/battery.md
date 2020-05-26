@@ -31,7 +31,7 @@ If compiled successfully, the firmware is located in `battery_status/armgcc/_bui
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 Run the following command in `battery_status/armgcc` to program the board:
 
@@ -56,7 +56,7 @@ Test the example by performing the following steps:
 
 3. Observe that the battery status is printed every 2 seconds.
 
-	![](assets/images/battery-status.png)
+	![](assets/images/battery-status.webp)
 
 ## Create an Issue
 

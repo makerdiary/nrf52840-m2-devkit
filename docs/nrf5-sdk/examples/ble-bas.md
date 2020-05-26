@@ -37,7 +37,7 @@ If compiled successfully, the firmware is located in `ble_app_bas/armgcc/_build`
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 
 Run the following command in `ble_app_bas/armgcc` to program the board:
@@ -63,7 +63,7 @@ You can test the application with the **LightBlue** app by performing the follow
 
 5. Tap *Battery Level* and listen for notifications. The Battery Level notifications are received.
 
-[![](assets/images/ble-app-bas-example.jpg)](assets/images/ble-app-bas-example.jpg)
+[![](assets/images/ble-app-bas-example.webp)](assets/images/ble-app-bas-example.webp)
 
 ## Create an Issue
 

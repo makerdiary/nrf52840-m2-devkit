@@ -36,7 +36,7 @@ If compiled successfully, the firmware is located in `ble_app_beacon/armgcc/_bui
 
 Connect the debugger USB port to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 
-![](../../assets/images/programming-firmware.png)
+![](../../assets/images/programming-firmware.webp)
 
 
 Run the following command in `ble_app_beacon/armgcc` to program the board:
@@ -58,7 +58,7 @@ Test the Beacon Example with **nRF Connect** by performing the following steps:
 
 3. Tap the device to view the full advertisement data.
 
-![](assets/images/ble-app-beacon-example.jpg)
+![](assets/images/ble-app-beacon-example.webp)
 
 ## Reference
 
