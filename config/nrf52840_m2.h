@@ -44,8 +44,8 @@ extern "C" {
 #define LEDS_NUMBER    4
 
 #define LED_1          NRF_GPIO_PIN_MAP(1,7)  // Green LED on the M.2 Dock
-#define LED_2          NRF_GPIO_PIN_MAP(0,29) // Green LED
-#define LED_3          NRF_GPIO_PIN_MAP(0,30) // Red LED
+#define LED_2          NRF_GPIO_PIN_MAP(0,30) // Red LED
+#define LED_3          NRF_GPIO_PIN_MAP(0,29) // Green LED
 #define LED_4          NRF_GPIO_PIN_MAP(0,31) // Blue LED
 #define LED_START      LED_1
 #define LED_STOP       LED_4
