@@ -116,17 +116,17 @@ nav:
   - Getting Started: getting-started.md
   - Programming: programming.md
   - Power Profiling: power-profiling.md
-  - Python on Microcontroller:
+  - Python Tutorials:
     - Overview: python/index.md
-    - Install Python on Microcontroller: python/install.md
+    - Install Python Interpreter: python/install.md
     - Examples:
       - Overview: python/examples/index.md
       - Blinky: python/examples/blinky.md
       - Button: python/examples/button.md
-      - SD Card: python/examples/sdcard.md
-      - LCD: python/examples/lcd.md
-      - USB Keyboard: python/examples/usb-keyboard.md
-      - BLE Keyboard: python/examples/ble-keyboard.md
+      - microSD Card: python/examples/microsd.md
+      - TFT LCD Display: python/examples/lcd.md
+      - USB HID Keyboard: python/examples/usb-keyboard.md
+      - BLE HID Keyboard: python/examples/ble-keyboard.md
   - nRF5 SDK Tutorials:
     - Overview: nrf5-sdk/index.md
     - Setup the nRF5 SDK: nrf5-sdk/setup.md
