@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Zephyr OS tutorials consist of several example codes and projects. The examples are organized in different levels of codes to demonstrate Zephyr API usage – from Hello World to Bluetooth samples:
+The Zephyr OS tutorials consist of several example codes and projects. The examples are organized in different levels of codes to demonstrate Zephyr API usage – from *Hello World* to *Bluetooth* samples:
 
 * [Hello World](hello-world.md)
 * [Blinky](blinky.md)
