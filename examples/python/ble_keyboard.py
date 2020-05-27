@@ -12,6 +12,7 @@ from adafruit_hid.keycode import Keycode
 
 hid = HIDService()
 advertisement = ProvideServicesAdvertisement(hid)
+advertisement.complete_name = 'CIRCUITPY KEYBOARD'
 advertisement.appearance = 961
 ble = adafruit_ble.BLERadio()
 if ble.connected:
@@ -30,7 +31,7 @@ last_value = button.value
 while True:
     if last_value != button.value:
         last_value = button.value
-        print(button.value)
+        print('Button is ' + ('released' if button.value else 'pressed'))
         if ble.connected:
             if not button.value:
                 ble_keyboard.press(Keycode.A)

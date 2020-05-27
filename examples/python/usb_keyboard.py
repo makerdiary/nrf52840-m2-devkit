@@ -18,8 +18,9 @@ last_value = button.value
 while True:
     if last_value != button.value:
         last_value = button.value
-        print(button.value)
         if not button.value:
-            usb_keyboard.press(Keycode.LEFT_GUI)
+            print('Button is pressed')
+            usb_keyboard.press(Keycode.A)
         else:
-            usb_keyboard.release(Keycode.LEFT_GUI)
+            print('Button is released')
+            usb_keyboard.release(Keycode.A)

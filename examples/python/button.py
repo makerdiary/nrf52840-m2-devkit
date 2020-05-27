@@ -12,4 +12,4 @@ last_value = button.value
 while True:
     if last_value != button.value:
         last_value = button.value
-        print(button.value)
+        print('Button is ' + ('released' if button.value else 'pressed'))

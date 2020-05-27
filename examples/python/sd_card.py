@@ -9,12 +9,15 @@ cs = digitalio.DigitalInOut(board.P7)
 sd = sdcard.SDCard(spi, cs)
 vfs = storage.VfsFat(sd)
 storage.mount(vfs, "/sd")
+print("microSD Card mounted.")
 
 # write to sd card
+print("Writing to file /sd/test.txt ...")
 with open("/sd/test.txt", "w") as f:
-    f.write("Hello world\n")
+	f.write("This is the written string.\n")
 
 # read from sd card
+print("Reading from file /sd/test.txt ...")
 with open("/sd/test.txt", "r") as f:
-    data = f.read()
-    print(data)
+	data = f.read()
+	print(data)
