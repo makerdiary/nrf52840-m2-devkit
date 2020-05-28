@@ -40,7 +40,7 @@ pip3 install power-profiler
 
 ## Using the Power Profiler
 
-The steps below demonstrates how to use the Power Profiler utility to perform real-time current profiling of a simple application:
+The steps below demonstrate how to use the Power Profiler utility to perform real-time current profiling of a simple application:
 
 1. Assemble the M.2 Module, then connect the **Debugger USB port** to your PC using the provided USB-C Cable. A disk drive called **M2-DOCK** will be automatically detected by the computer.
 

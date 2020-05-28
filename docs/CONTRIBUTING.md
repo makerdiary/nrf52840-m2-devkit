@@ -1,7 +1,6 @@
 # Contributing
 
-Interested in contributing to [nRF52840 M.2 Developer Kit](https://github.com/makerdiary/nrf52840-m2-devkit)? Want to report a bug? Before
-you do, please read the following guidelines.
+Interested in contributing to [nRF52840 M.2 Developer Kit](https://github.com/makerdiary/nrf52840-m2-devkit)? Want to report a bug? Before you do, please read the following guidelines.
 
 ## Got a question or problem?
 

@@ -9,7 +9,8 @@ The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 M
 
 ![kit image]()
 
-## Features
+## Key Features
+
 * nRF52840 M.2 Module
 	- Nordic Semiconductor nRF52840 SoC
 	- 64 MHz Arm® Cortex-M4 with FPU, 1 MB Flash + 256 KB RAM
@@ -47,7 +48,7 @@ The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 M
 
 The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
 
-![](assets/images/m2devkit-diagram-1x.webp)
+<a href="hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf" target="_blank"><img alt="Click to download the PDF" src="assets/images/nrf52840-m2-devkit-diagram.webp"></a>
 
 ## Included in the Box
 |    **Part**                | **Qty** |
@@ -64,12 +65,12 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Getting Started with nRF52840 M.2 Developer Kit](getting-started.md)
 * [How to Program the nRF52840 M.2 Module](programming.md)
 * [Getting Started with Power Profiling](power-profiling.md)
-* [Python on Microcontroller](python/index.md)
+* [Python Tutorials](python/index.md)
 * [nRF5 SDK Tutorials](nrf5-sdk/index.md)
 * [Zephyr RTOS Tutorials](zephyr/index.md)
 
 ## Design Resource
-* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](hw/)
+* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 * [nRF52840 M.2 Developer Kit 3D Model V1.0](hw/)
 * [nRF52840 M.2 Module Documentation](hw/)
 * [M.2 Dock Documentation](hw/)

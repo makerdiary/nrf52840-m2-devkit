@@ -6,7 +6,7 @@ This section describes how to install and verify the Python Interpreter on your 
 
 The pre-built CircuitPython firmware for the nRF52840 M.2 Developer Kit is a `.hex` file. Download it into your local directory:
 
-<a href="https://github.com/makerdiary/nrf52840-m2-devkit/tree/master/firmware/nrf52840_m2_devkit_circuitpython_5.3.0.hex"><button data-md-color-primary="red-bud" style="width:auto;">Download CircuiPython 5.3.0</button></a>
+<a href="https://github.com/makerdiary/nrf52840-m2-devkit/tree/master/firmware/python/nrf52840_m2_devkit_circuitpython_5.3.0.hex"><button data-md-color-primary="red-bud" style="width:auto;">Download CircuiPython 5.3.0</button></a>
 
 ## Install Python
 

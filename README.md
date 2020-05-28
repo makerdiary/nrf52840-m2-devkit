@@ -2,14 +2,15 @@
 > An open-source developer kit based on nRF52840 M.2 module, designed for IoT prototyping
 
 ## Description
-nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module]() and [M.2 Dock](). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the [nRF52840 M.2 Module]() combined with your custom PCB hardware in a short time.
+nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the nRF52840 M.2 Module combined with your custom PCB hardware in a short time.
 
-The [nRF52840 M.2 Module]() is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
+The [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
-The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
+The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
 
 
-## Features
+## Key Features
+
 * nRF52840 M.2 Module
 	- Nordic Semiconductor nRF52840 SoC
 	- 64 MHz Arm® Cortex-M4 with FPU, 1 MB Flash + 256 KB RAM
@@ -46,7 +47,7 @@ The [M.2 Dock]() extends the interfaces compared to the nRF52840 M.2 Module thro
 
 The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
 
-![](docs/assets/images/m2devkit-diagram-1x.webp)
+[![](docs/assets/images/nrf52840-m2-devkit-diagram.webp)](docs/hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 
 
 ## Included in the Box
@@ -65,7 +66,38 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Getting Started with nRF52840 M.2 Developer Kit](https://wiki.makerdiary.com/nrf52840-m2-devkit/getting-started)
 * [How to Program the nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2-devkit/programming)
 * [Getting Started with Power Profiling](https://wiki.makerdiary.com/nrf52840-m2-devkit/power-profiling)
-* [Python on Microcontroller](https://wiki.makerdiary.com/nrf52840-m2-devkit/python)
+* [Python Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/python)
 * [nRF5 SDK Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/nrf5-sdk)
 * [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
 
+## Contributing
+
+We would love for you to contribute to this project and help make it even better than it is today! See our [Contributing Guidelines](https://wiki.makerdiary.com/nrf52840-m2-devkit/CONTRIBUTING) for more information.
+
+## Design Resource
+* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](docs/hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
+* [nRF52840 M.2 Developer Kit 3D Model V1.0](hw/)
+* [nRF52840 M.2 Module Documentation](hw/)
+* [M.2 Dock Documentation](hw/)
+
+## MIT License
+
+Copyright (c) 2020 [makerdiary](https://makerdiary.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

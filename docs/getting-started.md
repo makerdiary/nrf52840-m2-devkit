@@ -17,7 +17,7 @@ Your nRF52840 M.2 Developer Kit box includes:
 
 ![Parts in the Kit]()
 
-## Assemble the Hardware
+## Assemble the Kit
 
 ## Set Up with Terminal
 
