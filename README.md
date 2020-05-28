@@ -70,15 +70,25 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [nRF5 SDK Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/nrf5-sdk)
 * [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
 
-## Contributing
-
-We would love for you to contribute to this project and help make it even better than it is today! See our [Contributing Guidelines](https://wiki.makerdiary.com/nrf52840-m2-devkit/CONTRIBUTING) for more information.
-
 ## Design Resource
 * [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](docs/hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 * [nRF52840 M.2 Developer Kit 3D Model V1.0](hw/)
-* [nRF52840 M.2 Module Documentation](hw/)
-* [M.2 Dock Documentation](hw/)
+* [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
+* [M.2 Dock Documentation](https://wiki.makerdiary.com/m2-dock)
+
+## Where to Buy
+
+nRF52840 M.2 Developer Kit is available on the following channels (click to go directly to the product):
+
+[![makerdiary store](docs/assets/images/makerdiary-store-logo.png)](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)
+
+[![Tindie](docs/assets/images/tindie-logo.png)](https://www.tindie.com/products/zelin/nrf52840-m2-developer-kit/)
+
+[![Taobao](docs/assets/images/taobao-logo.png)](https://zaowubang.taobao.com)
+
+## Contributing
+
+We would love for you to contribute to this project and help make it even better than it is today! See our [Contributing Guidelines](https://wiki.makerdiary.com/nrf52840-m2-devkit/CONTRIBUTING) for more information.
 
 ## MIT License
 
