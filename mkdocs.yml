@@ -20,7 +20,8 @@
 
 # Project information
 site_name: nRF52840 M.2 Developer Kit
-site_description: The documentation offers all you need to start developing with nRF52840 M.2 Developer Kit.
+site_description: >-
+  The documentation offers all you need to start developing with nRF52840 M.2 Developer Kit.
 site_author: makerdiary
 site_url: https://wiki.makerdiary.com/nrf52840-m2-devkit/
 
@@ -32,10 +33,11 @@ edit_uri: ""
 # Copyright
 copyright: 'Copyright &copy; 2020 <a href="https://wiki.makerdiary.com" target="_blank">wiki.makerdiary.com</a>'
 
+
 # Configuration
 theme:
   name: null
-  custom_dir: 'mkdocs-material/material'
+  custom_dir: mkdocs-material/material
 
   # 404 page
   static_templates:
@@ -47,16 +49,19 @@ theme:
 
   # Default values, taken from mkdocs_theme.yml
   language: en
-  feature:
-    tabs: true
+  features:
+    - tabs
+    #- instant
   palette:
+    scheme: default
     primary: red-bud
     accent: red-bud
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: 'assets/images/favicon.png'
-  logo: 'assets/images/logo.svg'
+  icon:
+    logo: logo
+  favicon: assets/images/favicon.png
 
 # Plugins
 plugins:
@@ -67,22 +72,29 @@ plugins:
 # Customization
 extra:
   social:
-    - type: comments
-      link: https://community.makerdiary.com
-    - type: globe
-      link: https://makerdiary.com
-    - type: github-alt
+    - icon: fontawesome/brands/shopify
+      link: https://store.makerdiary.com
+    - icon: fontawesome/brands/github
       link: https://github.com/makerdiary
-    - type: twitter
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/makerdiary
-    - type: youtube
+    - icon: fontawesome/brands/discourse
+      link: https://community.makerdiary.com
+    - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCX4nJNlsyj9VJeQOHgOs0yg
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/makerdiary
+    - icon: fontawesome/brands/zhihu
+      link: https://zhuanlan.zhihu.com/makerdiary
+
+
 #  disqus: 'makerdiary'
-#  discourse: 'community.makerdiary.com'
+#  discourse: 'community.makerdiary.com’
 
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
+  - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
       guess_lang: false
   - markdown.extensions.def_list
@@ -97,18 +109,25 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  #- pymdownx.highlight:
+  #    linenums_style: pymdownx-inline
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: makerdiary
+      repo: nrf52840-m2-devkit
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.superfences
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
 
 # Page tree
 nav:

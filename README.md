@@ -19,7 +19,7 @@ The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compa
 	- M.2 Key-E with USB 2.0, UART, SPI, TWI, PDM, I2S, PWM, ADC and up to 33 GPIOs
 	- User programmable RGB LED
 	- Ultra low power 64Mbit QSPI flash memory
-	- U.FL/I-PEX MHF Connectors
+	- U.FL/I-PEX MHF Antenna Connectors
 
 * Integrated DAPLink Debugger
 	- MSC - drag-n-drop programming flash memory
@@ -37,9 +37,9 @@ The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compa
 * 1.3" 240x240 Color IPS TFT LCD Display
 * Li-Po Battery Charger with Power Path Management
 * User programmable LED and Button
-* 2.4 GHz and NFC cabled PCB antennas
-* microSD card slot
-* Arduino form factor
+* 2.4 GHz and NFC cabled PCB Antennas
+* microSD Card Slot
+* Arduino Form Factor
 * 4 Grove Connectors
 * Reversible USB-C Connectors
 

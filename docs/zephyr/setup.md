@@ -171,13 +171,15 @@ The following instructions rely on [Chocolatey](https://chocolatey.org/). If Cho
 
 If everything works as expected, it's ready to build and run the Zephyr examples to verify the development environment setup.
 
-The steps that are described in [Build & Run a first example](building.md) will walk you through verifying your setup with the simple `Blinky` example.
+The steps that are described in [Build & Run a first example](building.md) will walk you through verifying your setup with the simple [Blinky](examples/blinky.md) example.
 
 ## Reference
 
+* [Zephyr Project: Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/index.html#getting-started)
+* [Zephyr Project: Beyond the Getting Started Guide](https://docs.zephyrproject.org/latest/guides/beyond-GSG.html#)
 
 ## Create an Issue
 
 Interested in contributing to this project? Want to report a bug? Feel free to click here:
 
-<a href="https://github.com/makerdiary/nrf52840-m2-devkit/issues/new?title=Setup%20the%20Zepnyr%20Toolchain:%20%3Ctitle%3E"><button data-md-color-primary="red-bud"><i class="fa fa-github"></i> Create an Issue</button></a>
+<a href="https://github.com/makerdiary/nrf52840-m2-devkit/issues/new?title=Setup%20the%20Zepnyr%20Toolchain:%20%3Ctitle%3E"><button class="md-issue-button md-issue-button--primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16" width="14" height="16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg> Create an Issue</button></a>

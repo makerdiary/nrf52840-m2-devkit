@@ -2,12 +2,12 @@
 
 ## Introduction
 
-The Python tutorials consist of several example codes and projects. The examples are organized in different levels of codes to demonstrate Python API usage – from *Hello World* to *Bluetooth* samples:
+The Python tutorials consist of several example codes and projects. The examples are organized in different levels of codes to demonstrate Python API usage – from *Blinky* to *Bluetooth* samples:
 
 * [Blinky](blinky.md)
 * [Button](button.md)
 * [microSD Card](microsd.md)
-* [LCD](lcd.md)
+* [TFT LCD Display](lcd.md)
 * [USB HID Keyboard](usb-keyboard.md)
 * [BLE HID Keyboard](ble-keyboard.md)
 
@@ -15,4 +15,4 @@ The Python tutorials consist of several example codes and projects. The examples
 
 If you don't see what you're looking for, you can request an example by submitting an issue to our GitHub Repository. We'd love to see your feedback!
 
-<a href="https://github.com/makerdiary/nrf52840-m2-devkit/issues/new?title=Python%20Example%20Request:%20%3Ctitle%3E"><button data-md-color-primary="red-bud" style="width:auto;"><i class="fa fa-github"></i> Request an Example</button></a>
+<a href="https://github.com/makerdiary/nrf52840-m2-devkit/issues/new?title=Python%20Example%20Request:%20%3Ctitle%3E"><button class="md-issue-button md-issue-button--primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16" width="14" height="16"><path fill-rule="evenodd" d="M12 8V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v12c0 .55.45 1 1 1h2v2l1.5-1.5L6 16v-4H3v1H1v-2h7v-1H2V1h9v7h1zM4 2H3v1h1V2zM3 4h1v1H3V4zm1 2H3v1h1V6zm0 3H3V8h1v1zm6 3H8v2h2v2h2v-2h2v-2h-2v-2h-2v2z"></path></svg> Request an Example</button></a>
