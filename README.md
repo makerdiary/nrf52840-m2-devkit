@@ -2,7 +2,7 @@
 > An open-source developer kit based on nRF52840 M.2 module, designed for IoT prototyping
 
 ## Description
-nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the Dev Kit to prototype your IoT solutions and then scale to production using the nRF52840 M.2 Module combined with your custom PCB hardware in a short time.
+nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the Dev Kit to prototype your IoT solutions and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
 
 The [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
@@ -47,7 +47,7 @@ The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compa
 
 The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
 
-[![](docs/assets/images/nrf52840-m2-devkit-diagram.webp)](docs/hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
+[![](docs/assets/images/nrf52840-m2-devkit-diagram.webp)](docs/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 
 
 ## Included in the Box
@@ -63,7 +63,7 @@ The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
 We think the best way to learn is by doing. And to help you get started, we have provided a series of tutorials. Find the details below:
 
 * [nRF52840 M.2 Developer Kit Wiki](https://wiki.makerdiary.com/nrf52840-m2-devkit)
-* [Getting Started with nRF52840 M.2 Developer Kit](https://wiki.makerdiary.com/nrf52840-m2-devkit/getting-started)
+* [Getting Started with the nRF52840 M.2 Developer Kit](https://wiki.makerdiary.com/nrf52840-m2-devkit/getting-started)
 * [How to Program the nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2-devkit/programming)
 * [Getting Started with Power Profiling](https://wiki.makerdiary.com/nrf52840-m2-devkit/power-profiling)
 * [Python Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/python)
@@ -71,8 +71,8 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
 
 ## Design Resource
-* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](docs/hw/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
-* [nRF52840 M.2 Developer Kit 3D Model V1.0](hw/)
+* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](docs/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
+* [nRF52840 M.2 Developer Kit 3D Model V1.0](docs/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
 * [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
 * [M.2 Dock Documentation](https://wiki.makerdiary.com/m2-dock)
 
