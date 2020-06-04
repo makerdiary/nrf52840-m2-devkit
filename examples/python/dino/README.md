@@ -1,6 +1,8 @@
 Dino
 ====
 
+![](dino.png)
+
 This is a replica of the hidden game - Dino at Chrome offline page.
 
 ## Requirements
