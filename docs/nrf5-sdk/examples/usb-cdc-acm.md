@@ -2,7 +2,9 @@
 
 ## Description
 
-This example demonstrates use of the USB Communication Device Class (CDC) Abstract Control Model (ACM) driver, commonly known as Virtual COM port. After connecting the nRF52840 M.2 USB, the module will enumerate as a `COMx` port on Windows hosts or as a `/dev/ttyACMx` device on Linux/Unix hosts. The port can be opened and closed just like a traditional serial port.
+This example demonstrates use of the USB Communication Device Class (CDC) Abstract Control Model (ACM) driver, commonly known as Virtual COM port. 
+
+After connecting the nRF52840 M.2 USB, the module will enumerate as a `COMx` port on Windows hosts or as a `/dev/ttyACMx` device on Linux/Unix hosts. The port can be opened and closed just like a traditional serial port.
 
 !!! Tip
 	Before you start building, remember to set up the nRF5 SDK development environment first. See [Setup the nRF5 SDK](../setup.md) for details.
@@ -56,7 +58,7 @@ Test the USB CDC ACM Example application by performing the following steps:
 	screen /dev/cu.usbmodemF09F05D94F451 115200
 	```
 
-3. Send test data from the second terminal to the module. Observe that the RED LED will blink and the debugger COM port will print the test data:
+3. Send test data from the second terminal to the module. Observe that the GREEN LED will blink and the debugger COM port will print the test data:
 
 	![](assets/images/usb-cdc-acm-logging.webp)
 

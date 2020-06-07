@@ -3,7 +3,7 @@
 <a href="https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK" target="_blank"><img src="assets/images/nRF5-SDK.png" alt="nRF5-SDK" width="80"/></a>
 
 ## Introduction
-The nRF5 SDK is your first stop for building fully featured, reliable and secure applications with the nRF52 and nRF51 Series. It offers developers a wealth of varied modules and examples right across the spectrum including numerous Bluetooth Low Energy profiles, Device Firmware Upgrade (DFU), GATT serializer and driver support for all peripherals on all nRF5 Series devices. The nRF5 SDK will almost certainly have something for your needs in developing exciting yet robust wireless products.
+The nRF5 SDK is your first stop for building fully featured, reliable and secure applications with the nRF5 Series. It offers developers a wealth of varied modules and examples right across the spectrum including numerous Bluetooth Low Energy profiles, Device Firmware Upgrade (DFU), GATT serializer and driver support for all peripherals on all nRF5 Series devices. The nRF5 SDK will almost certainly have something for your needs in developing exciting yet robust wireless products.
 
 The SDK is delivered as a plain .zip-archive, which makes it easy to install as well as giving you the freedom to choose the IDE and compiler of your choice.
 
@@ -13,7 +13,7 @@ Our nRF5 SDK tutorials include descriptions and other reference material to ensu
 
 See [Setup the nRF5 SDK](setup.md) for instructions on how to set up your development environment.
 
-<a href="setup"><button class="md-tile md-tile--primary" style="width:auto;">Setup the nRF5 SDK</button></a>
+<a href="setup"><button class="md-tile md-tile--primary" style="width:auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z"></path></svg> Setup the nRF5 SDK</button></a>
 
 ## Reference
 

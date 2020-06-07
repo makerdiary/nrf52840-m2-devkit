@@ -1,13 +1,15 @@
 # nRF52840 M.2 Developer Kit
-> An open-source developer kit based on nRF52840 M.2 module, designed for IoT prototyping
+> An open-source developer kit based on a removable nRF52840 M.2 module, designed for IoT prototyping
 
 ## Description
-nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the Dev Kit to prototype your IoT solutions and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
 
-The [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
+**[nRF52840 M.2 Developer Kit](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)** is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the Dev Kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
 
-The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
+The [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) is a removable M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
+The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your applications without using external tools.
+
+![]()
 
 ## Key Features
 
@@ -60,6 +62,7 @@ The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
 | USB-C Cable                | 1       |
 
 ## Tutorials
+
 We think the best way to learn is by doing. And to help you get started, we have provided a series of tutorials. Find the details below:
 
 * [nRF52840 M.2 Developer Kit Wiki](https://wiki.makerdiary.com/nrf52840-m2-devkit)
@@ -71,6 +74,7 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
 
 ## Design Resource
+
 * [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](docs/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 * [nRF52840 M.2 Developer Kit 3D Model V1.0](docs/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
 * [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)

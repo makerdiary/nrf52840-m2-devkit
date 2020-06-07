@@ -182,7 +182,7 @@ Extract the zip file to the `nrf52840-m2-devkit/nrf_sdks` directory. This should
 └── tools
 ```
 
-To use the nRF5 SDK you first need to set the toolchain path in `makefile.windows` or `makefile.posix` depending on platform you are using. That is, the `.posix` should be edited if your are working on either Linux or macOS. These files are located in:
+To use the nRF5 SDK you first need to set the toolchain path in `makefile.windows` or `makefile.posix` depending on platform you are using. That is, the `.posix` should be edited if you are working on either Linux or macOS. These files are located in:
 
 ``` sh
 cd <nRF5 SDK>/components/toolchain/gcc
@@ -196,7 +196,7 @@ GNU_VERSION ?= 7.3.1
 GNU_PREFIX ?= arm-none-eabi
 ```
 
-## Next Step
+## Next steps
 
 If everything works as expected, it's ready to build and run the examples to verify the development environment setup.
 

@@ -51,7 +51,7 @@ Once the Python Interpreter firmware is flashed, we can verify it by performing 
 
 	![](assets/images/python-repl.webp)
 
-## Next Steps
+## Next steps
 
 Now that you have the Python Interpreter installed, it's time to explore more examples for the nRF52840 M.2 Developer Kit:
 

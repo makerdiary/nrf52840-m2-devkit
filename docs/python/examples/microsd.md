@@ -6,7 +6,7 @@ The microSD Card Example demonstrates the use of a microSD memory card using the
 
 The example initializes the card and performs basic operations like mounting the FAT volume, writing and reading the example file.
 
-The microSD Card is connected over a SPI bus. The table below shows the connections of each pin of the microSD Card:
+The microSD Card is connected to the nRF52840 chip over a SPI bus. The table below shows the connections of each pin of the microSD Card:
 
 | microSD Card Pin      | nRF52840 Pin  |
 |-----------------------|---------------|
@@ -17,7 +17,7 @@ The microSD Card is connected over a SPI bus. The table below shows the connecti
 
 Before you start coding, the Python Interpreter should be installed on the nRF52840 M.2 module correctly:
 
-<a href="../../install"><button class="md-tile md-tile--primary" style="width:auto;">Install Python Interpreter</button></a>
+<a href="../../install"><button class="md-tile md-tile--primary" style="width:auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z"></path></svg> Install Python Interpreter</button></a>
 
 ## Run the code
 

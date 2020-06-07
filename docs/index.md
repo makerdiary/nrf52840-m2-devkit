@@ -1,10 +1,10 @@
-# nRF52840 M.2 Developer Kit<br/><small>An open-source developer kit based on nRF52840 M.2 module, designed for IoT prototyping</small>
+# nRF52840 M.2 Developer Kit<br/><small>An open-source developer kit based on a removable nRF52840 M.2 module, designed for IoT prototyping</small>
 
 ## Description
 
-nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](../nrf52840-m2) and [M.2 Dock](../m2-dock). You can use the developer kit to prototype your IoT solutions and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
+**[nRF52840 M.2 Developer Kit](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)** is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](../nrf52840-m2) and [M.2 Dock](../m2-dock). You can use the developer kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
 
-The [nRF52840 M.2 Module](../nrf52840-m2) is an M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
+The [nRF52840 M.2 Module](../nrf52840-m2) is a removable M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
 The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
 
@@ -68,15 +68,14 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Getting Started with Power Profiling](power-profiling.md)
 * [Python Tutorials](python/index.md)
 * [nRF5 SDK Tutorials](nrf5-sdk/index.md)
-* [Zephyr RTOS Tutorials](zephyr/index.md)
+* [Zephyr OS Tutorials](zephyr/index.md)
 
 ## Design Resource
+
 * [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 * [nRF52840 M.2 Developer Kit 3D Model V1.0](resources/nrf52840_m2_devkit_3d_model_v1_0.step)
 * [nRF52840 M.2 Module Documentation](../nrf52840-m2)
 * [M.2 Dock Documentation](../m2-dock)
-
-
 
 ## Create an Issue
 Interested in contributing to this project? Want to report a bug? Feel free to click here:

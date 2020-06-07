@@ -55,9 +55,9 @@ You can test the example with the **nRF Connect for Mobile** app by performing t
 
 5. Enable *`Notify`* on the *`Button State Characteristic`*. Notifications are received when pressing or releasing the USER Button.
 
-6. Write `01` to the *`LED State Characteristic`* and observe that RED LED is turned on.
+6. Write `01` to the *`LED State Characteristic`* and observe that GREEN LED is turned on.
 
-7. Write `00` to the *`LED State Characteristic`* and observe that RED LED is turned off.
+7. Write `00` to the *`LED State Characteristic`* and observe that GREEN LED is turned off.
 
 [![](assets/images/ble-app-blinky-example.webp)](assets/images/ble-app-blinky-example.webp)
 

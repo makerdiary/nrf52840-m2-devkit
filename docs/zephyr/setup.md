@@ -27,7 +27,7 @@ Follow the steps below to set up the development environment on macOS:
 
     ``` sh
 	echo 'export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb' >> ~/.bash_profile
-	echo 'export GNUARMEMB_TOOLCHAIN_PATH="<the toolchain installation directory>"' >> ~/.bash_profile
+	echo 'export GNUARMEMB_TOOLCHAIN_PATH="<the toolchain installation directory>/gcc-arm-none-eabi-8-2019-q3-update"' >> ~/.bash_profile
 	source ~/.bash_profile
     ```
     Type the following in your terminal to verify if the variables are set correctly:
@@ -87,7 +87,7 @@ This guide covers Ubuntu version 18.04 LTS and later. These steps should be simi
 
     ``` sh
 	echo 'export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb' >> ~/.bashrc
-	echo 'export GNUARMEMB_TOOLCHAIN_PATH="<the toolchain installation directory>"' >> ~/.bashrc
+	echo 'export GNUARMEMB_TOOLCHAIN_PATH="<the toolchain installation directory>/gcc-arm-none-eabi-8-2019-q3-update"' >> ~/.bashrc
 	source ~/.bashrc
     ```
     Type the following in your terminal to verify if the variables are set correctly:
@@ -167,7 +167,7 @@ The following instructions rely on [Chocolatey](https://chocolatey.org/). If Cho
 	pip3 install -r zephyr/scripts/requirements.txt
 	```
 
-## Next Step
+## Next steps
 
 If everything works as expected, it's ready to build and run the Zephyr examples to verify the development environment setup.
 
