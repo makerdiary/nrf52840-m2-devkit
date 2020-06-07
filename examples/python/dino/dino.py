@@ -28,7 +28,7 @@ group = displayio.Group(max_size=8)
 
 
 # Load bitmap
-ground_bmp, palette = adafruit_imageload.load("/ground512x12.bmp",
+ground_bmp, palette = adafruit_imageload.load("/img/ground512x12.bmp",
                                               bitmap=displayio.Bitmap,
                                               palette=displayio.Palette)
 
@@ -48,7 +48,7 @@ for x in range(120):
 
 group.append(ground)
 
-dinosaur_bmp, palette = adafruit_imageload.load("/dinosaur132x47.bmp",
+dinosaur_bmp, palette = adafruit_imageload.load("/img/dinosaur132x47.bmp",
                                                 bitmap=displayio.Bitmap,
                                                 palette=displayio.Palette)
 
@@ -68,7 +68,7 @@ dinosaur.y = 160
 
 group.append(dinosaur)
 
-cactus_bmp, palette = adafruit_imageload.load("/cactus15x32.bmp",
+cactus_bmp, palette = adafruit_imageload.load("/img/cactus15x32.bmp",
                                               bitmap=displayio.Bitmap,
                                               palette=displayio.Palette)
 palette.make_transparent(1)
@@ -79,7 +79,7 @@ cactus.x = 240
 cactus.y = 170
 group.append(cactus)
 
-cactus2_bmp, palette = adafruit_imageload.load("/cactus24x50.bmp",
+cactus2_bmp, palette = adafruit_imageload.load("/img/cactus24x50.bmp",
                                                bitmap=displayio.Bitmap,
                                                palette=displayio.Palette)
 palette.make_transparent(1)
@@ -89,7 +89,7 @@ cactus2.flip_x = True
 cactus2.y = 154
 group.append(cactus2)
 
-digital_bmp, palette = adafruit_imageload.load("/digital200x25.bmp",
+digital_bmp, palette = adafruit_imageload.load("/img/digital200x25.bmp",
                                                bitmap=displayio.Bitmap,
                                                palette=displayio.Palette)
 
@@ -113,7 +113,7 @@ def update_score(points):
     score[0] = (points // 100) % 10
 
 
-game_over_bmp, palette2 = adafruit_imageload.load("/game_over190x10.bmp",
+game_over_bmp, palette2 = adafruit_imageload.load("/img/game_over190x10.bmp",
                                                   bitmap=displayio.Bitmap,
                                                   palette=displayio.Palette)
 
@@ -127,7 +127,7 @@ game_over.y = 100
 game_over.hidden = True
 group.append(game_over)
 
-cloud_bmp, palette2 = adafruit_imageload.load("/cloud92x27.bmp",
+cloud_bmp, palette2 = adafruit_imageload.load("/img/cloud92x27.bmp",
                                               bitmap=displayio.Bitmap,
                                               palette=displayio.Palette)
 
