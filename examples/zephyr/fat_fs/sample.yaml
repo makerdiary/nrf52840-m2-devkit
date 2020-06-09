@@ -1,0 +1,7 @@
+sample:
+  name: Fat filesystem sample
+common:
+  tags: filesystem
+tests:
+  sample.filesystem.fat_fs:
+    depends_on: sdhc

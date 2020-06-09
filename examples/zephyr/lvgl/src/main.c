@@ -17,18 +17,30 @@
 #include <logging/log.h>
 LOG_MODULE_REGISTER(app);
 
-#if defined(DT_ALIAS_PWM_LED3_PWMS_CONTROLLER) && defined(DT_ALIAS_PWM_LED3_PWMS_CHANNEL)
-/* get the defines from dt (based on alias 'pwm-led3') */
-#define BL_PWM_DRIVER	DT_ALIAS_PWM_LED3_PWMS_CONTROLLER
-#define BL_PWM_CHANNEL	DT_ALIAS_PWM_LED3_PWMS_CHANNEL
-#ifdef DT_ALIAS_PWM_LED3_PWMS_FLAGS
-#define BL_PWM_FLAGS	DT_ALIAS_PWM_LED3_PWMS_FLAGS
+
+#define PWM_BACKLIGHT_NODE	DT_ALIAS(pwm_led3)
+
+/*
+ * Devicetree helper macro which gets the 'flags' cell from the node's
+ * pwms property, or returns 0 if the property has no 'flags' cell.
+ */
+
+#define FLAGS_OR_ZERO(node)						\
+	COND_CODE_1(DT_PHA_HAS_CELL(node, pwms, flags),		\
+		    (DT_PWMS_FLAGS(node)),				\
+		    (0))
+
+#if DT_NODE_HAS_STATUS(PWM_BACKLIGHT_NODE, okay)
+#define PWM_BACKLIGHT_LABEL	    DT_PWMS_LABEL(PWM_BACKLIGHT_NODE)
+#define PWM_BACKLIGHT_CHANNEL	DT_PWMS_CHANNEL(PWM_BACKLIGHT_NODE)
+#define PWM_BACKLIGHT_FLAGS	    FLAGS_OR_ZERO(PWM_BACKLIGHT_NODE)
 #else
-#define BL_PWM_FLAGS	0
+#error "Unsupported board: pwm-led3 devicetree alias is not defined"
+#define PWM_BACKLIGHT_LABEL	    ""
+#define PWM_BACKLIGHT_CHANNEL	0
+#define PWM_BACKLIGHT_FLAGS	    0
 #endif
-#else
-#error "Choose supported PWM driver"
-#endif
+
 
 /*
  * 50 is flicker fusion threshold. Modulated light will be perceived
@@ -45,14 +57,14 @@ void main(void)
 	lv_obj_t *hello_world_label;
 	lv_obj_t *count_label;
 
-	backlight_dev = device_get_binding(BL_PWM_DRIVER);
+	backlight_dev = device_get_binding(PWM_BACKLIGHT_LABEL);
 	if (!backlight_dev) {
 		LOG_ERR("pwm backlight not found. Aborting test.");
 		return;
 	}
 
-    if (pwm_pin_set_usec(backlight_dev, BL_PWM_CHANNEL,
-                PERIOD, PERIOD, BL_PWM_FLAGS)) {
+    if (pwm_pin_set_usec(backlight_dev, PWM_BACKLIGHT_CHANNEL,
+                PERIOD, PERIOD, PWM_BACKLIGHT_FLAGS)) {
         LOG_ERR("pwm backlight set fails.");
         return;
     }

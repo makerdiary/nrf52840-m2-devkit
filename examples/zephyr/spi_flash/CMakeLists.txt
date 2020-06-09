@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.13.1)
 # $ZEPHYR_BASE to this directory.
 set(BOARD_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../..)
 
-include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
+find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(spi_flash)
 
 FILE(GLOB app_sources src/*.c)
