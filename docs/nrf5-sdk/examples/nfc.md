@@ -50,13 +50,13 @@ Test the NFC Tag Example with a smartphone or a tablet with NFC support by perfo
 
 1. Make sure that the cabled NFC PCB Antenna is connected to nRF52840 M.2 Module through the U.FL connector.
 
-2. Touch the NFC PCB Antenna with the smartphone or tablet and observe that GREEN LED is lit.
+2. Touch the NFC PCB Antenna with the smartphone or tablet and observe that RED LED is lit.
 
 3. Observe that the smartphone/tablet tries to open the URL [https://makerdairy.com](https://makerdairy.com) in a web browser.
 
-4. Move the smartphone/tablet away from the NFC PCB Antenna and observe that GREEN LED turns off.
+4. Move the smartphone/tablet away from the NFC PCB Antenna and observe that RED LED turns off.
 
-![NFC image]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jCQXQQDWzRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Create an Issue
 

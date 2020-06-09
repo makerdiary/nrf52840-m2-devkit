@@ -64,7 +64,7 @@ Test the Peripheral DIS Example application by performing the following steps:
 3. Press RESET button, and observe the output of the terminal:
 
 	``` sh
-	*** Booting Zephyr OS build zephyr-v2.2.0-727-gfc407574412a  ***
+	*** Booting Zephyr OS build zephyr-v2.3.0-1-ge77985a2f053  ***
 	Bluetooth initialized
 	Advertising successfully started
 	```

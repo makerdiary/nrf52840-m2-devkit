@@ -56,7 +56,7 @@ Run the TFT LCD Display Example by performing the following steps:
 
 4. Type something in the terminal window. Observe that the LCD will display the same thing as in the terminal:
 
-	![LCD display image]()
+	![LCD display](assets/images/tft-lcd-display-example.webp)
 
 
 ## Reference

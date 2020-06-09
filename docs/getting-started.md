@@ -50,7 +50,7 @@ Now you're ready to run our Out-of-Box demo application! This application is an 
 
 Just press the USER button to play the game:
 
-![]()
+![](assets/images/dino-game-demo.webp)
 
 ## Next steps
 

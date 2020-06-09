@@ -64,16 +64,16 @@ Test the Bluetooth Beacon Example application by performing the following steps:
 3. Press RESET button, and observe the output of the terminal:
 
 	``` sh
-	*** Booting Zephyr OS build zephyr-v2.2.0-727-gfc407574412a  ***
+	*** Booting Zephyr OS build zephyr-v2.3.0-1-ge77985a2f053  ***
 	Starting Beacon Demo
 	Bluetooth initialized
 	Beacon started
-	[00:00:00.007,568] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
-	[00:00:00.007,568] <inf> bt_hci_core: HW Variant: nRF52x (0x0002)
-	[00:00:00.007,568] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 2.2 Build 99
-	[00:00:00.008,117] <inf> bt_hci_core: Identity: f0:9f:05:d9:4f:45 (random)
-	[00:00:00.008,148] <inf> bt_hci_core: HCI: version 5.1 (0x0a) revision 0x0000, manufacturer 0x05f1
-	[00:00:00.008,148] <inf> bt_hci_core: LMP: version 5.1 (0x0a) subver 0xffff
+	[00:00:00.007,385] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
+	[00:00:00.007,385] <inf> bt_hci_core: HW Variant: nRF52x (0x0002)
+	[00:00:00.007,415] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 2.3 Build 99
+	[00:00:00.007,995] <inf> bt_hci_core: Identity: f0:9f:05:d9:4f:45 (random)
+	[00:00:00.007,995] <inf> bt_hci_core: HCI: version 5.2 (0x0b) revision 0x0000, manufacturer 0x05f1
+	[00:00:00.007,995] <inf> bt_hci_core: LMP: version 5.2 (0x0b) subver 0xffff
 	```
 
 4. Start the [nRF Connect for Mobile](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-mobile) app, scan the device and observe that the beacon is advertising an Eddystone URL ([https://makerdiary.com](https://makerdiary.com)) with the Device Name **Test beacon**.

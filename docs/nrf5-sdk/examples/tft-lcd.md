@@ -44,7 +44,7 @@ Test the example by performing the following steps:
 
 Program the application and observe the graphic objects on the LCD screen:
 
-![LCD Displaying]()
+![LCD Displaying](assets/images/lcd-display-example.webp)
 
 ## Create an Issue
 

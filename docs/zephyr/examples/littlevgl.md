@@ -69,7 +69,7 @@ Test the LittlevGL Example application by performing the following steps:
 
 4. Observe the graphic objects on the LCD screen:
 
-	![LCD Display]()
+	![LCD Display](assets/images/lcd-display-demo.webp)
 
 
 ## Create an Issue

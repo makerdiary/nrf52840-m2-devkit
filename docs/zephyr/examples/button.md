@@ -1,6 +1,6 @@
 # Button Example
 
-The Button Example demonstrates the use of GPIO input with interrupts. The example prints a message to the console each time a button is pressed.
+The Button Example demonstrates the use of GPIO input with interrupts. The example prints a message to the console each time a button is pressed. An optional `led0` devicetree alias is supported additionally. The LED will be turned on when the button is pressed, and turned off when it is released.
 
 Before you start building, the Zephyr development environment should be set up correctly:
 
@@ -59,9 +59,12 @@ Test the Button Example application by performing the following steps:
 	screen /dev/cu.usbmodem14102 115200
 	```
 
-2. Press the USER button, and observe the output of the terminal. When the button gets pressed, the interrupt handler will print an information about this event along with its timestamp.
+2. Press the USER button, then observe the GREEN LED and the output of the terminal.
 
-	![](assets/images/logging-button.webp)
+	![](assets/images/button-example.webp)
+
+	![](assets/images/logging-button-example.webp)
+
 
 ## Create an Issue
 

@@ -51,7 +51,7 @@ west flash
 
 After programmed, the application will run automatically. Observe that the LED will start to blink as shown in this figure:
 
-![Blinking]()
+![Blinking](examples/assets/images/blinky_1s_demo.webp)
 
 ## Next steps
 

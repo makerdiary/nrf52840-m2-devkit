@@ -46,7 +46,7 @@ make flash_all
 
 After programmed, the application will run automatically. Observe that the LEDs will start to blink as shown in this figure:
 
-![Blinky image]()
+![Blinking](examples/assets/images/blinky-example.webp)
 
 ## Next steps
 

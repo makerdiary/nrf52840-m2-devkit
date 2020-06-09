@@ -44,7 +44,7 @@ Run the Blinky Example by performing the following steps:
 
 3. Your code will run as soon as the file is done saving. Observe that the LED starts to blink:
 
-	![Blinky image]()
+	![Blinking](assets/images/blinky-demo.webp)
 
 ## Create an Issue
 

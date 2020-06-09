@@ -64,19 +64,19 @@ Test the Peripheral HIDs Example application by performing the following steps:
 3. Press RESET button, and observe the output of the terminal:
 
 	``` sh
-	*** Booting Zephyr OS build zephyr-v2.2.0-727-gfc407574412a  ***
+	*** Booting Zephyr OS build zephyr-v2.3.0-1-ge77985a2f053  ***
 	Bluetooth initialized
-	[00:00:00.174,438] <inf> fs_nvs: 4 Sectors of 4096 bytes
-	[00:00:00.174,438] <inf> fs_nvs: alloc wra: 0, ff0
-	[00:00:00.174,438] <inf> fs_nvs: data wra: 0, 0dvertising successfully started
-
-	[00:00:00.175,994] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
-	[00:00:00.176,025] <inf> bt_hci_core: HW Variant: nRF52x (0x0002)
-	[00:00:00.176,025] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 2.2 Build 99
-	[00:00:00.176,330] <inf> bt_hci_core: No ID address. App must call settings_load()
-	[00:00:00.178,619] <inf> bt_hci_core: Identity: f0:9f:05:d9:4f:45 (random)
-	[00:00:00.178,649] <inf> bt_hci_core: HCI: version 5.1 (0x0a) revision 0x0000, manufacturer 0x05f1
-	[00:00:00.178,649] <inf> bt_hci_core: LMP: version 5.1 (0x0a) subver 0xffff
+	[00:00:00.006,988] <inf> fs_nvs: 4 Sectors of 4096 bytes
+	[00:00:00.006,988] <inf> fs_nvs: alloc wra: 0, fd8
+	Advertising successfully started
+	[00:00:00.007,019] <inf> fs_nvs: data wra: 0, 1c
+	[00:00:00.008,544] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
+	[00:00:00.008,575] <inf> bt_hci_core: HW Variant: nRF52x (0x0002)
+	[00:00:00.008,575] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 2.3 Build 99
+	[00:00:00.008,880] <inf> bt_hci_core: No ID address. App must call settings_load()
+	[00:00:00.011,260] <inf> bt_hci_core: Identity: f0:9f:05:d9:4f:45 (random)
+	[00:00:00.011,260] <inf> bt_hci_core: HCI: version 5.2 (0x0b) revision 0x0000, manufacturer 0x05f1
+	[00:00:00.011,291] <inf> bt_hci_core: LMP: version 5.2 (0x0b) subver 0xffff
 	```
 
 4. Use a computer with Bluetooth Low Energy supported to connect the device. Here goes with macOS: Go to **System Preferences** -> **Bluetooth Preferences**, observe that the BLE HID Mouse named **Test HoG mouse** is found and click <kbd>Connect</kbd>.
