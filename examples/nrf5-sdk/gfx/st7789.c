@@ -132,15 +132,18 @@ static void set_addr_window(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1)
     ASSERT(x0 <= x1);
     ASSERT(y0 <= y1);
 
+	uint16_t ram_x0 = x0 + 80;
+	uint16_t ram_x1 = x1 + 80;
+
     write_command(ST7789_CASET);
-    write_data(0x00);                       // For a 240x240 display, it is always 0.
-    write_data(x0);
-    write_data(0x00);                       // For a 240x240 display, it is always 0.
-    write_data(x1);
+    write_data(ram_x0 >> 8);                       
+    write_data(ram_x0 & 0xFF);
+    write_data(ram_x1 >> 8);               
+    write_data(ram_x1 & 0xFF);
     write_command(ST7789_RASET);
-    write_data(0x00);                       // For a 240x240 display, it is always 0.
+    write_data(0x00);                       
     write_data(y0);
-    write_data(0x00);                       // For a 240x240 display, it is always 0.
+    write_data(0x00);                       
     write_data(y1);
     write_command(ST7789_RAMWR);
 }
@@ -157,18 +160,18 @@ static void command_list(void)
     nrf_delay_ms(10);
 
     write_command(ST7789_MADCTL);
-    write_data(0x08);
+    write_data(0xa8);
 
     write_command(ST7789_CASET);
     write_data(0x00);
-    write_data(0);
-    write_data(0);
-    write_data(240);
+    write_data(0x50); // x-start = 80
+    write_data(0x01);
+    write_data(0x3F); // x-end = 80 + 240 - 1
     write_command(ST7789_RASET);
     write_data(0x00);
+    write_data(0);    // y-start = 0
     write_data(0);
-    write_data(0);
-    write_data(240);
+    write_data(0xEF);  // y-end = 240 - 1
 
     write_command(ST7789_INVON);
     nrf_delay_ms(10);
