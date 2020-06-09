@@ -1,4 +1,7 @@
 # nRF52840 M.2 Developer Kit
+
+![github pages](https://github.com/makerdiary/nrf52840-m2-devkit/workflows/github%20pages/badge.svg)
+
 > An open-source developer kit based on a removable nRF52840 M.2 module, designed for IoT prototyping
 
 ## Description
