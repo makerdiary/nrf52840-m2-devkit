@@ -10,8 +10,7 @@
 
 / {
 	model = "Makerdiary nRF52840-M2 Module";
-	compatible = "nordic,nrf52840-qiaa",
-			"nordic,nrf52840";
+	compatible = "nordic,nrf52840-dk-nrf52840";
 
 	chosen {
 		zephyr,console = &uart0;
@@ -48,15 +47,19 @@
 		compatible = "pwm-leds";
 		red_pwm_led: pwm_led_0 {
 			pwms = <&pwm0 30>;
+			label = "Red PWM LED 0";
 		};
 		green_pwm_led: pwm_led_1 {
 			pwms = <&pwm0 29>;
+			label = "Green PWM LED 1";
 		};
 		blue_pwm_led: pwm_led_2 {
 			pwms = <&pwm0 31>;
+			label = "Blue PWM LED 2";
 		};
 		backlight_pwm_led: pwm_led_3 {
 			pwms = <&pwm0 20>;
+			label = "Backlight PWM LED 3";
 		};
 	};
 
@@ -153,13 +156,6 @@
 	cts-pin = <13>;
 };
 
-arduino_serial: &uart1 {
-	status = "okay";
-	current-speed = <115200>;
-	rx-pin = <15>;
-	tx-pin = <16>;
-};
-
 arduino_i2c: &i2c0 {
 	compatible = "nordic,nrf-twi";
 	status = "okay";
@@ -220,13 +216,13 @@ arduino_spi: &spi1 {
 		reset-gpios = <&gpio1 9 GPIO_ACTIVE_LOW>;
 		width = <240>;
 		height = <240>;
-		x-offset = <0>;
+		x-offset = <80>;
 		y-offset = <0>;
 		vcom = <0x19>;
 		gctrl = <0x35>;
 		vrhs = <0x12>;
 		vdvs = <0x20>;
-		mdac = <0x00>;
+		mdac = <0xa0>;
 		gamma = <0x01>;
 		colmod = <0x05>;
 		lcm = <0x2c>;

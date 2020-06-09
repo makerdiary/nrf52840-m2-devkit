@@ -32,13 +32,13 @@ manifest:
       repo-path: zephyr
       west-commands: scripts/west-commands.yml
       remote: zephyrproject
-      revision: fc407574412a6c5aaf5161360a05e11d8a964f00
+      revision: e77985a2f0531a8fbefdb9ae2e5ea7c5e3dbd70f
     - name: cmsis
-      revision: a2b82e79bd8ac156fb283d5f52fa0a2373962cf9
+      revision: 542b2296e6d515b265e25c6b7208e8fea3014f90
       path: modules/hal/cmsis
       remote: zephyrproject
     - name: hal_nordic
-      revision: f6d5eca68e07551d6a36359b67600f9e98736839
+      revision: 742d8fb839406951ef7f95d0132bfa8c2635343f
       path: modules/hal/nordic
       remote: zephyrproject   
     - name: lvgl
@@ -51,7 +51,7 @@ manifest:
       remote: zephyrproject
     - name: littlefs
       path: modules/fs/littlefs
-      revision: fe9572dd5a9fcf93a249daa4233012692bd2881d
+      revision: 0aefdda69d236cb01f932117c1f32e9da09c0ec3
       remote: zephyrproject
     - name: tinycrypt
       path: modules/crypto/tinycrypt
