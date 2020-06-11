@@ -12,7 +12,7 @@ The [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) is a removabl
 
 The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your applications without using external tools.
 
-![]()
+[![](docs/assets/images/nrf52840-m2-devkit-prod.webp)](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)
 
 ## Key Features
 
@@ -47,12 +47,13 @@ The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compa
 * Arduino Form Factor
 * 4 Grove Connectors
 * Reversible USB-C Connectors
+* 3.3V IO Operating Voltage
 
 ## Hardware Diagram
 
 The hardware diagram of the nRF52840 M.2 Developer Kit is shown below:
 
-[![](docs/assets/images/nrf52840-m2-devkit-diagram.webp)](docs/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
+[![](docs/assets/images/nrf52840-m2-devkit-diagram.webp)](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
 
 
 ## Included in the Box
@@ -78,10 +79,10 @@ We think the best way to learn is by doing. And to help you get started, we have
 
 ## Design Resource
 
-* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](docs/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
-* [nRF52840 M.2 Developer Kit 3D Model V1.0](docs/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
+* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
+* [nRF52840 M.2 Developer Kit 3D Model V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
 * [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
-* [M.2 Dock Documentation](https://wiki.makerdiary.com/m2-dock)
+* [M.2 Dock User's Guide](https://wiki.makerdiary.com/m2-dock)
 
 ## Where to Buy
 

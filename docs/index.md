@@ -2,13 +2,13 @@
 
 ## Description
 
-**[nRF52840 M.2 Developer Kit](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)** is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](../nrf52840-m2) and [M.2 Dock](../m2-dock). You can use the developer kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
+**[nRF52840 M.2 Developer Kit](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)** is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the developer kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
 
-The [nRF52840 M.2 Module](../nrf52840-m2) is a removable M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
+The [nRF52840 M.2 Module](https://wiki.makerdiary.com/nrf52840-m2) is a removable M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
-The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
+The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](power-profiling.md), enabling you to program, debug and perform real-time current profiling of your IoT applications without using external tools.
 
-![kit image]()
+[![kit image](assets/images/nrf52840-m2-devkit-prod.webp)](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)
 
 ## Key Features
 
@@ -35,7 +35,6 @@ The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 M
 	- Cross-platform utility available in Python
 
 * Shipped with Python Interpreter firmware
-
 * 1.3" 240x240 Color IPS TFT LCD Display
 * Li-Po Battery Charger with Power Path Management
 * User programmable LED and Button
@@ -44,6 +43,7 @@ The [M.2 Dock](../m2-dock) extends the interfaces compared to the nRF52840 M.2 M
 * Arduino Form Factor
 * 4 Grove Connectors
 * Reversible USB-C Connectors
+* 3.3V IO Operating Voltage
 
 ## Hardware Diagram
 
@@ -72,10 +72,10 @@ We think the best way to learn is by doing. And to help you get started, we have
 
 ## Design Resource
 
-* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
-* [nRF52840 M.2 Developer Kit 3D Model V1.0](resources/nrf52840_m2_devkit_3d_model_v1_0.step)
-* [nRF52840 M.2 Module Documentation](../nrf52840-m2)
-* [M.2 Dock Documentation](../m2-dock)
+* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
+* [nRF52840 M.2 Developer Kit 3D Model V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
+* [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
+* [M.2 Dock Documentation](https://wiki.makerdiary.com/m2-dock)
 
 ## Create an Issue
 Interested in contributing to this project? Want to report a bug? Feel free to click here:
