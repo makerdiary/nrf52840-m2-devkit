@@ -2,7 +2,7 @@
 
 ## Description
 
-The [M.2 Dock](../../m2-dock) included in the Developer Kit features a fully-integrated DAPLink debugger, which enables you to program and debug the nRF52840 M.2 Module. 
+The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) included in the Developer Kit features a fully-integrated DAPLink debugger, which enables you to program and debug the nRF52840 M.2 Module. 
 
 This section describes how to program the nRF52840 M.2 Module using the M.2 Dock. You have the following two options to program your module:
 
@@ -79,7 +79,7 @@ The following commands demonstrate how to flash/erase the nRF52840 M.2 Module:
 
 ## Reference
 
-* [M.2 Dock User's Guide](../../m2-dock)
+* [M.2 Dock User's Guide](https://wiki.makerdiary.com/m2-dock)
 * [pyOCD Documentation](https://github.com/mbedmicro/pyOCD/tree/master/docs)
 
 ## Create an Issue

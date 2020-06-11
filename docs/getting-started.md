@@ -7,6 +7,8 @@ This guide describes how to run the Out-of-Box Demo without going through the co
 
 Your nRF52840 M.2 Developer Kit box includes:
 
+![Parts in the Kit](assets/images/nrf52840-m2-devkit-prod.webp)
+
 |    **Part**                | **Qty** |
 | -------------------------- | ------- |
 | nRF52840 M.2 Module        | 1       |
@@ -14,8 +16,6 @@ Your nRF52840 M.2 Developer Kit box includes:
 | 2.4 GHz Cabled PCB Antenna | 1       |
 | NFC Cabled PCB Antenna     | 1       |
 | USB-C Cable                | 1       |
-
-![Parts in the Kit]()
 
 ## Assemble the hardware
 
@@ -56,9 +56,9 @@ Just press the USER button to play the game:
 
 Now that you are familiar with the nRF52840 M.2 Developer Kit, it's time to explore more examples and tutorials available below:
 
-* [Python Tutorials](../python)
-* [nRF5 SDK Tutorials](../nrf5-sdk)
-* [Zephyr OS Tutorials](../zephyr)
+* [Python Tutorials](python/index.md)
+* [nRF5 SDK Tutorials](nrf5-sdk/index.md)
+* [Zephyr OS Tutorials](zephyr/index.md)
 
 To program the nRF52840 M.2 Module, check out this tutorial:
 

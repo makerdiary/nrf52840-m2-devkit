@@ -2,7 +2,7 @@
 
 ## Description
 
-The [M.2 Dock](../../m2-dock) features an Advanced Power Profiler, enabling you to perform real-time current profiling of your applications without using external tools.
+The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) features an Advanced Power Profiler, enabling you to perform real-time current profiling of your applications without using external tools.
 
 **Key features**
 
@@ -46,7 +46,7 @@ The steps below demonstrate how to use the Power Profiler utility to perform rea
 
 	![](assets/images/programming-firmware.webp)
 
-2. Program the board with your application firmware. Will use the [Blinky](../nrf5-sdk/examples/blinky) example here to keep it simple.
+2. Program the board with your application firmware. Will use the [Blinky](nrf5-sdk/examples/blinky.md) example here to keep it simple.
 
 3. Start the Power Profiler in your terminal by running:
 
