@@ -15,16 +15,19 @@ See below for available documentation, software, and other resources.
 
 ## Hardware Resource
 
-* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
-* [nRF52840 M.2 Developer Kit 3D Model V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
-* [nRF52840 M.2 Module Hardware Diagram V1.0](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_hw_diagram_v1_0.pdf)
-* [nRF52840 M.2 Module Schematic V1.0](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_schematic_v1_0.pdf)
-* [nRF52840 M.2 Module Board File V1.0](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_board_file_v1_0.pdf)
-* [nRF52840 M.2 Module 3D Model V1.0](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_3d_model_v1_0.step)
-* [M.2 Dock Hardware Diagram V1.0](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_hw_diagram_v1_0.pdf)
-* [M.2 Dock Schematic V1.0](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_schematic_v1_0_for_nrf52840.pdf)
-* [M.2 Dock Board File V1.0](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_board_file_v1_0.pdf)
-* [M.2 Dock 3D Model V1.0](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_3d_model_v1_0.step)
+|    **Title**                | **Version** |
+| --------------------------- | ----------- |
+| [nRF52840 M.2 Developer Kit Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Module Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_hw_diagram_v1_0.pdf) | V1.0 |
+| [M.2 Dock Hardware Diagram](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_hw_diagram_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Module Schematic](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_schematic_v1_0.pdf) | V1.0 |
+| [M.2 Dock Schematic for nRF52840 M.2 Module](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_schematic_v1_0_for_nrf52840.pdf) | V1.0 |
+| [nRF52840 M.2 Module Board File](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_board_file_v1_0.pdf) | V1.0 |
+| [M.2 Dock Board File V1.0](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_board_file_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Developer Kit 3D Model](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_3d_model_v1_0.step) | V1.0 |
+| [nRF52840 M.2 Module 3D Model](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_3d_model_v1_0.step) | V1.0 |
+| [M.2 Dock 3D Model](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_3d_model_v1_0.step) | V1.0 |
+
 
 ## Request a Tutorial
 

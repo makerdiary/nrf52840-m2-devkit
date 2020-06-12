@@ -6,9 +6,11 @@
 
 ## Description
 
-**[nRF52840 M.2 Developer Kit](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)** is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://store.makerdiary.com/products/nrf52840-m2-module) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the Dev Kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
+**[nRF52840 M.2 Developer Kit](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)** is a versatile IoT prototyping platform, including the [nRF52840 M.2 Module](https://store.makerdiary.com/products/nrf52840-m2-module) and [M.2 Dock](https://wiki.makerdiary.com/m2-dock). You can use the developer kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.
 
-The [nRF52840 M.2 Module](https://store.makerdiary.com/products/nrf52840-m2-module) is a removable M.2 E-Key form factor module for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
+The [nRF52840 M.2 Module](https://store.makerdiary.com/products/nrf52840-m2-module) is a removable M.2 E-Key form factor module based on the nRF52840 SoC, supporting Bluetooth 5, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks.
+
+for Bluetooth Low Energy, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary applications on the nRF52840 SoC.
 
 The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](https://wiki.makerdiary.com/nrf52840-m2-devkit/power-profiling.md), enabling you to program, debug and perform real-time current profiling of your applications without using external tools.
 
@@ -76,13 +78,24 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [Python Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/python)
 * [nRF5 SDK Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/nrf5-sdk)
 * [Zephyr RTOS Tutorials](https://wiki.makerdiary.com/nrf52840-m2-devkit/zephyr)
+* [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
+* [M.2 Dock User's Guide](https://wiki.makerdiary.com/m2-dock)
 
 ## Design Resource
 
-* [nRF52840 M.2 Developer Kit Hardware Diagram V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf)
-* [nRF52840 M.2 Developer Kit 3D Model V1.0](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_3d_model_v1_0.step)
-* [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
-* [M.2 Dock User's Guide](https://wiki.makerdiary.com/m2-dock)
+|    **Title**                | **Version** |
+| --------------------------- | ----------- |
+| [nRF52840 M.2 Developer Kit Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Module Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_hw_diagram_v1_0.pdf) | V1.0 |
+| [M.2 Dock Hardware Diagram](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_hw_diagram_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Module Schematic](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_schematic_v1_0.pdf) | V1.0 |
+| [M.2 Dock Schematic for nRF52840 M.2 Module](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_schematic_v1_0_for_nrf52840.pdf) | V1.0 |
+| [nRF52840 M.2 Module Board File](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_board_file_v1_0.pdf) | V1.0 |
+| [M.2 Dock Board File V1.0](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_board_file_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Developer Kit 3D Model](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_3d_model_v1_0.step) | V1.0 |
+| [nRF52840 M.2 Module 3D Model](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_3d_model_v1_0.step) | V1.0 |
+| [M.2 Dock 3D Model](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_3d_model_v1_0.step) | V1.0 |
+
 
 ## Where to Buy
 
