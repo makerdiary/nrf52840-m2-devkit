@@ -12,7 +12,7 @@ The [nRF52840 M.2 Module](https://store.makerdiary.com/products/nrf52840-m2-modu
 
 The [M.2 Dock](https://wiki.makerdiary.com/m2-dock) extends the interfaces compared to the nRF52840 M.2 Module through an M.2 E-Key connector. This design also features a fully-integrated [DAPLink](https://armmbed.github.io/DAPLink/) debugger with [Power Profiling](https://wiki.makerdiary.com/nrf52840-m2-devkit/power-profiling.md), enabling you to program, debug and perform real-time current profiling of your applications without using external tools.
 
-[![](docs/assets/images/nrf52840-m2-devkit-prod.webp)](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)
+[![](docs/assets/images/nrf52840-m2-devkit-hero.webp)](https://store.makerdiary.com/products/nrf52840-m2-developer-kit)
 
 ## Key Features
 
