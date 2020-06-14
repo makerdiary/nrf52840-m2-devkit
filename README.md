@@ -105,6 +105,12 @@ nRF52840 M.2 Developer Kit is available on the following channels (click to go d
 
 [![Taobao](docs/assets/images/taobao-logo.png)](https://zaowubang.taobao.com)
 
+## Bulk & Customization
+
+We are ready to customize our electronics and firmware to better meet your solution's needs. Many of our platforms are prepared for customization.
+
+If you would like to do some serious business, feel free to contact us and we'll reply before you know it: [contact@makerdiary.com](mailto:contact@makerdiary.com)
+
 ## Contributing
 
 We would love for you to contribute to this project and help make it even better than it is today! See our [Contributing Guidelines](https://wiki.makerdiary.com/nrf52840-m2-devkit/CONTRIBUTING) for more information.
