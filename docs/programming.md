@@ -38,7 +38,7 @@ The latest stable version of pyOCD can be installed via [pip](https://pip.pypa.i
 pip install -U pyocd
 ```
 
-List information about the probe connected to your computer by running:
+List information about the debugger connected to your computer by running:
 
 ``` sh
 pyocd list

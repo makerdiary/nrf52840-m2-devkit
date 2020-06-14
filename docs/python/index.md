@@ -11,7 +11,7 @@ The Python tutorials include descriptions and other reference material to ensure
 
 	CircuitPython is based on [MicroPython](https://micropython.org/), and features unified Python core APIs and a growing list of 150+ device libraries and drivers that work with it.
 	
-	For more details about CircuitPython, please visit the [Adafruit CircuitPython](https://circuitpython.readthedocs.io/) site.
+	For more details about CircuitPython, please visit the [Adafruit CircuitPython](https://circuitpython.org/) site.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ We think the best way to learn is by doing. And to help you get started, we have
 ## Reference
 
 * [MicroPython](http://micropython.org/)
-* [Adafruit CircuitPython](https://circuitpython.readthedocs.io/)
+* [Adafruit CircuitPython](https://circuitpython.org/)
 
 ## Create an Issue
 

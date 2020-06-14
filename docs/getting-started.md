@@ -7,15 +7,17 @@ This guide describes how to run the Out-of-Box Demo without going through the co
 
 Your nRF52840 M.2 Developer Kit box includes:
 
-![Parts in the Kit](assets/images/nrf52840-m2-devkit-prod.webp)
+![Parts in the Kit](assets/images/nrf52840-m2-devkit-parts.webp)
 
-|    **Part**                | **Qty** |
-| -------------------------- | ------- |
-| nRF52840 M.2 Module        | 1       |
-| M.2 Dock                   | 1       |
-| 2.4 GHz Cabled PCB Antenna | 1       |
-| NFC Cabled PCB Antenna     | 1       |
-| USB-C Cable                | 1       |
+:material-numeric-1-box: nRF52840 M.2 Module
+
+:material-numeric-2-box: M.2 Dock
+
+:material-numeric-3-box: 2.4 GHz Cabled PCB Antenna
+
+:material-numeric-4-box: NFC Cabled PCB Antenna
+
+:material-numeric-5-box: USB-C Cable 
 
 ## Assemble the hardware
 

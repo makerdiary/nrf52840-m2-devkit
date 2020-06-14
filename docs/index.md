@@ -70,7 +70,7 @@ We think the best way to learn is by doing. And to help you get started, we have
 * [nRF5 SDK Tutorials](nrf5-sdk/index.md)
 * [Zephyr OS Tutorials](zephyr/index.md)
 * [nRF52840 M.2 Module Documentation](https://wiki.makerdiary.com/nrf52840-m2)
-* [M.2 Dock Documentation](https://wiki.makerdiary.com/m2-dock)
+* [M.2 Dock User's Guide](https://wiki.makerdiary.com/m2-dock)
 
 ## Design Resource
 
