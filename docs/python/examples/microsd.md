@@ -37,9 +37,11 @@ Run the microSD Card Example by performing the following steps:
 	# SD card usage
 	import board
 	import digitalio
+	import displayio
 	import sdcard
 	import storage
 
+	displayio.release_displays()
 	spi = board.SPI()
 	cs = digitalio.DigitalInOut(board.P7)
 	sd = sdcard.SDCard(spi, cs)
