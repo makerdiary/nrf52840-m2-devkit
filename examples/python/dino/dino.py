@@ -3,8 +3,6 @@ import digitalio
 import displayio
 import time
 import os
-
-from lcd import LCD
 import adafruit_imageload
 
 
@@ -13,19 +11,9 @@ button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
 
 
-displayio.release_displays()
-spi = board.SPI()
-
-display_bus = displayio.FourWire(
-    spi, command=board.LCD_DC, chip_select=board.LCD_CS, reset=board.LCD_RST
-)
-
-display = LCD(display_bus, width=240, height=240, rowstart=80,
-              rotation=90, backlight_pin=board.LCD_BL)
-
+display = board.DISPLAY
 
 group = displayio.Group(max_size=8)
-
 
 # Load bitmap
 ground_bmp, palette = adafruit_imageload.load("/img/ground512x12.bmp",
