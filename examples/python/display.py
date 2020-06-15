@@ -3,16 +3,29 @@ import board
 import digitalio
 import displayio
 import time
-from lcd import LCD
 
 
-displayio.release_displays()
+display = board.DISPLAY
 
-spi = board.SPI()
+bitmap = displayio.Bitmap(40, 40, 2)
+for i in range(40):
+    bitmap[i, i] = 1
 
-display_bus = displayio.FourWire(
-    spi, command=board.LCD_DC, chip_select=board.LCD_CS, reset=board.LCD_RST
-)
+palette = displayio.Palette(2)
+palette[0] = 0x000000
+palette[1] = 0x00FF00
 
-display = LCD(display_bus, width=240, height=240, rowstart=80, rotation=90, backlight_pin=board.LCD_BL)
+tile = displayio.TileGrid(bitmap,
+                          pixel_shader=palette,
+                          width=6,
+                          height=6,
+                          tile_width=40,
+                          tile_height=40)
 
+group = displayio.Group()
+group.append(tile)
+
+display.show(group)
+
+while True:
+    time.sleep(1)
