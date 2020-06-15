@@ -77,7 +77,7 @@ We think the best way to learn is by doing. And to help you get started, we have
 |    **Title**                | **Version** |
 | --------------------------- | ----------- |
 | [nRF52840 M.2 Developer Kit Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2-devkit/resources/nrf52840_m2_devkit_hw_diagram_v1_0.pdf) | V1.0 |
-| [nRF52840 M.2 Module Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_hw_diagram_v1_0.pdf) | V1.0 |
+| [nRF52840 M.2 Module Hardware Diagram](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_diagram_v1_0.pdf) | V1.0 |
 | [M.2 Dock Hardware Diagram](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_hw_diagram_v1_0.pdf) | V1.0 |
 | [nRF52840 M.2 Module Schematic](https://wiki.makerdiary.com/nrf52840-m2/resources/nrf52840_m2_module_schematic_v1_0.pdf) | V1.0 |
 | [M.2 Dock Schematic for nRF52840 M.2 Module](https://wiki.makerdiary.com/m2-dock/resources/m2_dock_schematic_v1_0_for_nrf52840.pdf) | V1.0 |
